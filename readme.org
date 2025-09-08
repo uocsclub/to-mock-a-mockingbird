@@ -1,0 +1,5 @@
+* 2025 UOCS Book Club: To Mock a Mockingbird
+
+This repo holds all the content for the book club.
+
+All the slides are formatted using [[https:orgmode.org][Org Mode]], and presented with [[https:github.com/takaxp/org-tree-slide][Org Tree Slide]]. If you, for some peculiar reason, want to view these as slides, my presentation setup can be found in my [[https://github.com/Garklein/dotfiles/blob/main/dotfiles/.emacs.d/lisp/presentation.el][dotfiles]]. However, this is quite closely tied to my Emacs config, so you'll need to modify it.

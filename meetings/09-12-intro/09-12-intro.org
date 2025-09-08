@@ -1,0 +1,40 @@
+#+TITLE: To Mock a Mockingbird Introduction
+#+DATE: September 12th, 2025
+
+* To Mock a Mockingbird and Other Logic Puzzles
+
+By Raymond Smullyan
+https://raymondsmullyan.com/books/to-mock-a-mockingbird-and-other-logic-puzzles/
+
+#+ATTR_ORG: :align center :width 350
+[[../../media/other-cover.jpg]]
+
+* Raymond Smullyan
+
+- 1919–2017
+- Loved math in high school, but dropped out
+- Studied and audited math courses at many universities (Columbia, UC Berkeley)
+- First job: magician
+
+#+ATTR_ORG: :align center :width 280
+[[file:magician.jpg]]
+
+* Raymond Smullyan cont'd
+
+- Hired to teach math at Dartmouth College (still no degree)
+- 1955: Finally got a contentious degree in from the Univercity of Chicago
+- 1959: PhD in Math from Princeton University under Alonzo Church
+
+#+ATTR_ORG: :align center :width 600
+[[./teaching.jpg]]
+
+* Raymond Smullyan (the "Mathemagician")
+
+- Willard Van Orman Quine, Marvin Minsky, Marvin Gardner
+- Published books of chess problems
+- Studied Taoist philosophy
+- Enthusiastic pianist
+- Amateur astronomer
+
+#+ATTR_ORG: :align center :width 550
+[[./cardtrick.jpg]]
