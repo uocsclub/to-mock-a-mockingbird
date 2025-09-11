@@ -16,7 +16,7 @@ https://raymondsmullyan.com/books/to-mock-a-mockingbird-and-other-logic-puzzles/
 - Studied and audited math courses at many universities (Columbia, UC Berkeley)
 - First job: magician
 
-#+ATTR_ORG: :align center :width 280
+#+ATTR_ORG: :align center :width 300
 [[file:magician.jpg]]
 
 * Raymond Smullyan cont'd
@@ -38,3 +38,159 @@ https://raymondsmullyan.com/books/to-mock-a-mockingbird-and-other-logic-puzzles/
 
 #+ATTR_ORG: :align center :width 550
 [[./cardtrick.jpg]]
+
+* Introduction
+
+#+ATTR_ORG: :align center :width 500
+[[../../media/other-cover.jpg]]
+
+* The Flower Garden
+
+In a certain flower garden, each flower was either red, yellow, or blue, and all three colours were represented.
+(i) Whatever three flowers you picked, at least one of them was bound to be red.
+(ii) Also, whatever three flowers you picked, at least one of them was bound to be yellow.
+Does it follow that whatever three flowers you pick, at least one is bound to be blue?
+
+** Answer
+
+Yes, it does! From (i), it follows that there are at most two non-red flowers (yellow and blue). Similarly, from (ii), it follows that there are at most two non-yellow flowers. So, there are only three flowers: red, yellow, and blue.
+
+* What Question
+
+There is a question I could ask you that has a deffinite correct answer—either yes or no—but it is logically impossible for you to give the correct answer. You might /know/ what the correct answer is, but you cannot give it. Anybody other than you might possible be able to give the correct answer, but you cannot!
+
+Can you figure out what question I could have in mind?
+
+** Answer
+
+"Is no the answer to this question?"
+
+* Which Way Would You Bet?
+
+Chose your favourite baseball team and consider the scores it will make next season. Which do you bet will be the larger number—the /sum/ of these scores or the /product/ of these scores?
+
+** Answer
+
+Chances are, the sum, because your team will probably score at least one zero.
+
+* The Three Prizes
+
+Suppose I offer to give you one of three prizes—Prize A, Prize B, or Prize C. You are to make a statement; if the statement is true, then I promise to award you either Prize A or Prize B, but if your statement is false, then you get Prize C.
+
+Suppose you have your heart set on Prize A—what statement could you make which would force me to give you prize A?
+
+** Answer
+
+"I will not get prize B."
+
+* A Fourth Prize is Added
+
+I will now add a fourth prize—Prize D. If you make a true statement, I promise to give you either Prize A or Prize B, but if you make a false statement, you get Prize C or Prize D.
+
+What statement could you make that would force me to give you Prize C?
+
+** Answer
+
+"I will get Prize D".
+
+* You Wish to Confound Me!
+
+Now, suppose you don't give a hoot for /any/ of the prizes; you merely wish to confound me by making a statement that will force me to break my promise. What statement will do this?
+
+** Answer
+
+"I will get Prize C or Prize D."
+
+* John, James and William
+
+John and James (the two J's) always lie, but William always tells the truth. The three are indistinguishable in appearance. You meet one, and wish to find out whether he is John. You are allowed to ask him one question answerable by yes or no, but the question may not contain more than three words! What question would you ask?
+
+** Answer
+
+"Are you James?" William truthfully replies "no"; James, lying, would reply "no"; but John, lying, would respond "yes".
+
+* A Variant
+
+Now, John and James are both truthful and William is a liar. Is there a three word yes/no question to figure out if one is John?
+
+** Answer
+
+The same thing! "Are you James?". John truthfully replies "no", James truthfully answers "yes", and William would lie and also say "yes".
+
+* A More Subtle Puzzle
+
+We now have identical twins. One is named Arthur, and the other's name has slipped our mind. One always lies and one always tells the truth, but again, we have forgotten which is which. You meet one of them and wish to figure out if he's Arthur. Again, you are only allowed to ask a single yes/no question of three words.
+
+** Answer
+
+"Is Arthur truthful?". Consider asking someone "are you truthful". Now, replace "you" with "Arthur".
+
+* A Variant
+
+What if you want to figure out if Arthur is the liar or the truth-teller?
+
+** Answer
+
+"Are you Arthur?". Considering asking John "are you John?".
+
+* Another Variant
+
+Suppose you just want to find out if the one you're talking to lies or tells the truth. What three-word questio will accomplish this?
+
+** Answer
+
+Anything that's a fact! "Do you exist?"
+
+* The Final Arthur Bros encounter
+
+You meet one of the brothers, and want him to answer "yes". What question can you ask?
+
+** Answer
+
+"Are you truthful?" (opposite of "Do you lie?")
+
+* The Nelson Goodman Principle
+
+Suppose someone is standing at the fork of a road; one road leads to the town of Pleasantville, which you ish to visit, and the other road doesn't. The indivisual knows which road leads to Pleasantville, but he either always lies or alwayas tells the truth. What question would you ask him to find out which is the correct road to Pleasantville?
+
+** Answer
+
+"Are you able to say that this road leads to Pleasantville?". Adding "are you able to" to the beginning of a question adds a second layer to the question. A liar lies in both layers, which cancel each other out.
+
+* The Absentminded Logician I
+
+The logician is married to either Teresa, who always tells the truth, or Leonore, who always lies. He doesn't know which. The other isn't married. He meets one of them: what three word yes/no question can he ask to determine if she's his wife?
+
+** Answer
+
+"Is Teresa married." Yes -> his wife, no -> not his wife.
+
+* The Absentminded Logician II
+
+What if he meets one of them, and wants to find out if his wife's name is Teresa or Leonore? Reminder: Teresa tells the Truth, and Leonore always Lies.
+
+** Answer
+
+"Are you married." Yes -> Teresa is his wife, no -> Leonore is his wife.
+
+* The Absentminded Logician III
+
+Suppose the logician wants to find out both the identity of the lady he meets /and/ the first name of his wife. He can only ask a yes/no question, but there is no restriction on the number of words in the question.
+
+Can you find a question that will work?
+
+** Answer
+
+No such question exists! There are 4 possibilities (talking to either sister, married to either sister), and there are only 2 possible answers to a yes/no question.
+
+* Next Week
+
+- Get your hands on a copy
+- Read Chapter 3 (The Barber of Seville)
+- Next meeting is Friday the 19th at 4 pm
+  - location TBD in CRX, I will ping @Book Club on Discord
+
+#+ATTR_ORG: :align center :width 330
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
