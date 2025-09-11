@@ -163,7 +163,10 @@ The logician is married to either Teresa, who always tells the truth, or Leonore
 
 ** Answer
 
-"Is Teresa married." Yes -> his wife, no -> not his wife.
+"Is Teresa married."
+
+Yes -> his wife
+No -> not his wife.
 
 * The Absentminded Logician II
 
@@ -171,7 +174,10 @@ What if he meets one of them, and wants to find out if his wife's name is Teresa
 
 ** Answer
 
-"Are you married." Yes -> Teresa is his wife, no -> Leonore is his wife.
+"Are you married."
+
+Yes -> Teresa is his wife
+No -> Leonore is his wife
 
 * The Absentminded Logician III
 
