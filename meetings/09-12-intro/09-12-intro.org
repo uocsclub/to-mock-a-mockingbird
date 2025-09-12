@@ -109,7 +109,6 @@ John and James (the two J's) always lie, but William always tells the truth. The
 
 "Are you James?" William truthfully replies "no"; James, lying, would reply "no"; but John, lying, would respond "yes".
 
-
 * A Variant
 
 Now, John and James are both truthful and William is a liar. Is there a three word yes/no question to figure out if one is John?
