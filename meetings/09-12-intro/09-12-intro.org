@@ -22,7 +22,7 @@ https://raymondsmullyan.com/books/to-mock-a-mockingbird-and-other-logic-puzzles/
 * Raymond Smullyan cont'd
 
 - Hired to teach math at Dartmouth College (still no degree)
-- 1955: Finally got a contentious degree in from the Univercity of Chicago
+- 1955: Finally got a contentious degree in from the University of Chicago
 - 1959: PhD in Math from Princeton University under Alonzo Church
 
 #+ATTR_ORG: :align center :width 600
@@ -57,7 +57,7 @@ Yes, it does! From (i), it follows that there are at most two non-red flowers (y
 
 * What Question
 
-There is a question I could ask you that has a deffinite correct answer—either yes or no—but it is logically impossible for you to give the correct answer. You might /know/ what the correct answer is, but you cannot give it. Anybody other than you might possible be able to give the correct answer, but you cannot!
+There is a question I could ask you that has a definite correct answer—either yes or no—but it is logically impossible for you to give the correct answer. You might /know/ what the correct answer is, but you cannot give it. Anybody other than you might possibly be able to give the correct answer, but you cannot!
 
 Can you figure out what question I could have in mind?
 
@@ -109,6 +109,7 @@ John and James (the two J's) always lie, but William always tells the truth. The
 
 "Are you James?" William truthfully replies "no"; James, lying, would reply "no"; but John, lying, would respond "yes".
 
+
 * A Variant
 
 Now, John and James are both truthful and William is a liar. Is there a three word yes/no question to figure out if one is John?
@@ -135,7 +136,7 @@ What if you want to figure out if Arthur is the liar or the truth-teller?
 
 * Another Variant
 
-Suppose you just want to find out if the one you're talking to lies or tells the truth. What three-word questio will accomplish this?
+Suppose you just want to find out if the one you're talking to lies or tells the truth. What three-word question will accomplish this?
 
 ** Answer
 
@@ -143,55 +144,15 @@ Anything that's a fact! "Do you exist?"
 
 * The Final Arthur Bros encounter
 
-You meet one of the brothers, and want him to answer "yes". What question can you ask?
+You meet one of the brothers, and want him to answer "yes". What three-word y/n question can you ask?
 
 ** Answer
 
 "Are you truthful?" (opposite of "Do you lie?")
 
-* The Nelson Goodman Principle
-
-Suppose someone is standing at the fork of a road; one road leads to the town of Pleasantville, which you ish to visit, and the other road doesn't. The indivisual knows which road leads to Pleasantville, but he either always lies or alwayas tells the truth. What question would you ask him to find out which is the correct road to Pleasantville?
-
-** Answer
-
-"Are you able to say that this road leads to Pleasantville?". Adding "are you able to" to the beginning of a question adds a second layer to the question. A liar lies in both layers, which cancel each other out.
-
-* The Absentminded Logician I
-
-The logician is married to either Teresa, who always tells the truth, or Leonore, who always lies. He doesn't know which. The other isn't married. He meets one of them: what three word yes/no question can he ask to determine if she's his wife?
-
-** Answer
-
-"Is Teresa married."
-
-Yes -> his wife
-No -> not his wife.
-
-* The Absentminded Logician II
-
-What if he meets one of them, and wants to find out if his wife's name is Teresa or Leonore? Reminder: Teresa tells the Truth, and Leonore always Lies.
-
-** Answer
-
-"Are you married."
-
-Yes -> Teresa is his wife
-No -> Leonore is his wife
-
-* The Absentminded Logician III
-
-Suppose the logician wants to find out both the identity of the lady he meets /and/ the first name of his wife. He can only ask a yes/no question, but there is no restriction on the number of words in the question.
-
-Can you find a question that will work?
-
-** Answer
-
-No such question exists! There are 4 possibilities (talking to either sister, married to either sister), and there are only 2 possible answers to a yes/no question.
-
 * Next Week
 
-- Get your hands on a copy
+- Read the rest of Chapter 2 (Nelson Goodman Principle to the end)
 - Read Chapter 3 (The Barber of Seville)
 - Next meeting is Friday the 19th at 4 pm
   - location TBD in CRX, I will ping @Book Club on Discord
