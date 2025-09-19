@@ -1,0 +1,33 @@
+* The Barber of Seville
+
+Five inhabitants of Seville are Alfredo, Bernardo, Benito, Roberto, and Ramano. There is a single barber in Seville.
+
+Fact 1: Bernardo and Benito are opposite in their wig-wearding habits.
+Fact 2: Roberto and Ramano are likewise opposites.
+Fact 3: Ramano wears a wig on those and only those days when Alfredo and Benito both wear one.
+Fact 4: Bernardo is a follower of Alfredo and the barber.
+Fact 5: Given any male inhabitant X, if Bernardo is a follower of Alfredo and X, then the barber is a follower of X alone.
+
+Alfredo wears only black wigs; Bernardo wears only white wigs; Benito wears only grey wigs; Roberto wears only red wigs; and Ramano wears only brown wigs.
+
+One Easter morning, the barber was seen wearing a wig. What color was he wearing?
+
+* The Barber of Seville Solution
+
+Suppose Alfredo and Benito are both wearing wigs. Then, Bernardo isn't, Ramano is, and Roberto isn't. Since Bernardo follows Alfredo and the barber, the barber also isn't wearing a wig.
+Thus, the barber is either Bernardo or Roberto.
+
+Idea: either prove that the barber follows Roberto and that Roberto follows the barber, or that the barber follows Bernardo and Bernardo follows the barber.
+
+Suppose the barber is wearing a wig and Alfredo is wearing a wig. Then, Bernardo is wearing a wig and Benito isn't. That means that Ramano isn't wearing a wig, and Roberto is.
+Suppose the barber is wearing a wig and Alfredo isn't wearing a wig. Then, Ramano isn't wearing a wig, and Robero is.
+
+Thus, Roberto is a follower of the barber.
+
+To prove that the barber follows Roberto, we can show that Bernardo follows Alfredo and Roberto.
+
+Suppose Alfredo and Roberto are both wearing wigs. Then, Ramano isn't, so Benito isn't. Thus, Bernardo is.
+
+Since Bernardo wears a wig when Alfredo and Roberto both do, Bernardo follows Alfredo and Roberto. This means that the barber follows Roberto.
+
+Since the barber follows Roberto and Roberto follows the barber, the barber is Roberto. Thus, the barber was wearing a red wig.
