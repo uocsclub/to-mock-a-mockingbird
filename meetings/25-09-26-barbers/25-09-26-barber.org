@@ -1,60 +1,18 @@
-#+TITLE: To Mock a Mockingbird Chapters 2 and 3
-#+DATE: September 19th, 2025
+#+TITLE: To Mock a Mockingbird Chapter 3
+#+DATE: September 26th, 2025
 
 * To Mock a Mockingbird
-
-#+ATTR_ORG: :align center :width 430
+#+ATTR_ORG: :align center :width 450
 [[../../media/other-cover.jpg]]
 
-Today: finish chapter 2, start chapter 3
-
-* The Nelson Goodman Principle
-
-Suppose someone is standing at the fork of a road; one road leads to the town of Pleasantville, which you ish to visit, and the other road doesn't. The indivisual knows which road leads to Pleasantville, but he either always lies or alwayas tells the truth. What question would you ask him to find out which is the correct road to Pleasantville?
-
-** Answer
-
-"Are you able to say that this road leads to Pleasantville?". Adding "are you able to" to the beginning of a question adds a second layer to the question. A liar lies in both layers, which cancel each other out.
-
-* The Absentminded Logician I
-
-The logician is married to either Teresa, who always tells the truth, or Leonore, who always lies. He doesn't know which. The other isn't married. He meets one of them: what three word yes/no question can he ask to determine if she's his wife?
-
-** Answer
-
-"Is Teresa married."
-
-Yes -> his wife
-No -> not his wife.
-
-Why not look at the ring?
-
-* The Absentminded Logician II
-
-What if he meets one of them, and wants to find out if his wife's name is Teresa or Leonore? Reminder: Teresa tells the Truth, and Leonore always Lies.
-
-** Answer
-
-"Are you married."
-
-Yes -> Teresa is his wife
-No -> Leonore is his wife
-
-* The Absentminded Logician III
-
-Suppose the logician wants to find out both the identity of the lady he meets /and/ the first name of his wife. He can only ask a yes/no question, but there is no restriction on the number of words in the question.
-
-Can you find a question that will work?
-
-** Answer
-
-No such question exists! There are 4 possibilities (talking to either sister, married to either sister), and there are only 2 possible answers to a yes/no question.
+Today: chapter 3!
+No meeting next week!
 
 * Russell's Paradox
 
 Suppose a barber of a certain town shaves all of and only those inhabitants who do not shave themselves. Does the barber shave himself or not?
 
-#+ATTR_ORG: :align center :width 200
+#+ATTR_ORG: :align center :width 250
 [[./barbershop-pole.jpg]]
 ** Answer
 
@@ -179,23 +137,35 @@ A certain barber named Cardano once boasted that he had shaved every member of t
 
 Since the barber has shaved every member of the Exclusive Club and no one else, it follows that no one in the Exclusive Club has shaved him. But if none of his clients [people in the Exclusive Club] have shaved him, then he himself is in the Exclusive Club! And if he is in the Exclusive Club, he has shaved himself, meaning he isn't a member of the Exclusive Club! CONTRADICTION! Cardano is *not to be trusted*.
 
-
 * The Barber of Seville
 
 In the mythical town of Seville, the male inhabitants wear wigs on those and only those days when they feel like it. No two inhabitants behave alike on /all/ days.
 
 Given any X and Y, Y is said to be a /follower/ of X if Y wears a wig on all days that X does. Also, given any X, Y, and Z, Z is said to be a /follower/ of X and Y if Z wears a wig on all the days that Z and Y both do.
 
+#+ATTR_ORG: :align center :width 300
+[[./wig.jpg]]
+
 * The Barber of Seville cont'd
 
+- No two inhabitants behave alike; follower of X, Y = superset of X∩Y
 Five inhabitants of Seville are Alfredo, Bernardo, Benito, Roberto, and Ramano. There is a single barber in Seville.
 
-Fact 1: Bernardo and Benito are opposite in their wig-wearding habits.
-Fact 2: Roberto and Ramano are likewise opposites.
-Fact 3: Ramano wears a wig on those and only those days when Alfredo and Benito both wear one.
-Fact 4: Bernardo is a follower of Alfredo and the barber.
-Fact 5: Given any male inhabitant X, if Bernardo is a follower of Alfredo and X, then the barber is a follower of X alone.
+(1): Bernardo and Benito are opposite in their wig-wearding habits.
+(2): Roberto and Ramano are likewise opposites.
+(3): Ramano wears a wig on those and only those days when Alfredo and Benito both wear one.
+(4): Bernardo is a follower of Alfredo and the barber.
+(5): Given any male inhabitant X, if Bernardo is a follower of Alfredo and X, then the barber is a follower of X alone.
 
 Alfredo wears only black wigs; Bernardo wears only white wigs; Benito wears only grey wigs; Roberto wears only red wigs; and Ramano wears only brown wigs.
 
-One Easter morning, the barber was seen wearing a wig. What color was he wearing?
+One Easter morning, the barber was seen wearing a wig. What color wig was he wearing?
+
+* Next Meeting
+
+No meeting next week (check out Linux presentation!)
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
