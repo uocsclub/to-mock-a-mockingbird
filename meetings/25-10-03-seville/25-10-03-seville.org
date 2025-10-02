@@ -83,6 +83,10 @@ Since Bernardo wears a wig when Alfredo and Roberto both do, Bernardo follows Al
 
 Since the barber follows Roberto and Roberto follows the barber, the barber is Roberto. Thus, on this beautiful Easter day, the barber was wearing a red wig.
 
+* Prolog solution
+
+[[./barber.pl]]
+
 * Next Meeting
 
 Next week, we will be reading Chapter 4, "The Mystery of the Photograph".
