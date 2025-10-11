@@ -17,4 +17,4 @@ solve(Alfredo, Bernardo, Benito, Roberto, Ramano, Barber) :-
     maplist(fact5(Bernardo, Alfredo, Barber),
 	    [Alfredo, Bernardo, Benito, Roberto, Ramano]).
 
-?- solve(Alfredo, Bernardo, Benito, Roberto, Ramano, barber).
+?- solve(Alfredo, Bernardo, Benito, Roberto, Ramano, Barber).

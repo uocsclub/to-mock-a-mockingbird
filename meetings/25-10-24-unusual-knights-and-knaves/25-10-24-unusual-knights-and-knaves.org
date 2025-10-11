@@ -1,0 +1,54 @@
+#+TITLE: To Mock a Mockingbird Chapter 5
+#+DATE: October 24th, 2025
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 480
+[[../../media/other-cover.jpg]]
+
+Today: finish chapter 4, start chapter 5!
+
+* A Metapuzzle (what's that?)
+
+Arthur is an accurate truth-teller, Bernard is an inaccurate truth-teller, Charles is an accurate liar, David is an inaccurate liar.
+
+One day a logician came across one of the four brothers and asked him, "Who are you?" The brother identified himself as either Arthur, Bernard, Charles, or David, and the logician then knew who he was.
+
+A few minutes later, the same brother was met by a second logician, who asked him, "Who do you believe you are?" The brother answered, again either Arthur, Bernard, Charles, or David, and the second logician then knew who he was.
+
+Who is he?
+
+** Answer
+
+Remember, A and D always respond accurately, while B and C respond inaccurately. Therefore, A, B, or C could all claim to be A; same with B, C, D claiming D. Therefore, the brother is either Bernard or Charles.
+
+When questions about belief are asked, they respond according to their honesty. So, A and B would respond with A and B respectively, while C and D would respond with something that isn't C or D respectively. Therefore, the brother responded David or Charles, and is either Charles or David.
+
+∴ the brother is Charles.
+
+* The Mystery of the Photograph
+
+Arthur is an accurate truth-teller, Bernard is an inaccurate truth-teller, Charles is an accurate liar, David is an inaccurate liar.
+
+If you ever visit these four brothers at their home, you will notice a photograph of one of them in the living room. If you ask each of them whether it is /his/ photograph, three of them will answer no and one will answer yes. If you ask each one whether he /believes/ it is his photograph, then again three will answer no and one will answer yes.
+
+Whose photograph is it?
+
+** Answer
+
+"Is it your photograph?" 3n, 1y:
+it's Bernard or Charles's photograph
+
+"Do you /believe/ it is your photograph?":
+If it's Bernard's, N Y Y Y
+If it's Charles's, N N N Y
+
+So, again, the answer is Charles!
+
+But, does it even matter?
+
+* Next Meeting
+
+#+ATTR_ORG: :align center :width 340
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
