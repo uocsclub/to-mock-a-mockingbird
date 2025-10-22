@@ -46,9 +46,141 @@ So, again, the answer is Charles!
 
 But, does it even matter?
 
+* Refresher: knights and knaves
+
+On a certain island, each inhabitant is either a knight or a knaves. Knights make only true statements, and knaves make only false ones.
+
+1. Is it possible for any inhabitant to claim that he is a knave?
+2. Is it possible for an inhabitant of the island to claim that he and his brother are both knaves?
+3. Suppose an inhabitant A says about himself and his brother B: "At least one of us is a knave." What type is A and what type is B?
+
+** Answers
+
+1. Nope!
+2. Yep, if he is a knave and his brother is a knight. (see commentary in book)
+3. A can't be a knave since he would then be telling the truth, so A is a knight and B is a knave.
+
+* More refreshments
+
+4. Suppose A instead says "Exactly one of us is a knave." What can be deduced about A and what can be deduced about B?
+5. Suppose A instead says: "My brother and I are the same type." What can be deduced about A and B? Suppose A had instead said "My brother and I are different types." What can then be deduced?
+
+** Answers
+
+4. Either A is a knight and B is a knave, or they're both knaves. So we know nothing about A, but B is a knave.
+5. If A says they're both the same type, B couldn't be a knave, since that would be the same as A claiming to be a knave, which is impossible.
+   If A says they're both different types, B can't be a knight, since again that's A claiming to be a knave (this is the same as 4.).
+
+* The Search for Arthur York
+
+It is not known whether Arthur York is a knight or a knave.
+
+Craig: What do you know about Arthur York?
+Defendant: Arthur York once claimed that I was a knave.
+Craig: Are you by any chance Arthur York?
+Defendant: Yes.
+
+Is the defendant Arthur York?
+
+** Answer
+
+Assume he's Arthur York. Then, he's a knight, since he claims to be Arthur York. Therefore, he's claimed he's a knave: contradiction! So, he's a knave, and not Arthur York.
+
+* The Second Trial
+
+Craig: The last suspect was a queer bird; he actually claimed to be Arthur York! Did /you/ ever claim to be Arthur York.
+Defendant: No.
+Craig: Did you ever claim that you are /not/ Arthur York?
+Defendant: Yes.
+
+Is the defendant Arthur York?
+
+** Answer
+
+If the defendant is a knight, he's not Arthur York. If he's a knave, he's claimed to be Arthur York, so again he isn't Arthur York.
+
+* The Third Trial
+
+Defense Attorney: My client is indeed a knave, but he is not Arthur York.
+Defendant: My attorney always tells the truth!
+
+Is the defendant Arthur York?
+
+** Answer
+
+If the defendant is telling the truth, that leads to a contradiction. Therefore, the defendant is a knave, and the attorney is also a knave. The attorney's statement must thus be false, so the defendant is Arthur York! We got him!
+
+* Bonus Arthur York Encounter
+
+Given an arbitrary defendant that inhabits this island, is there a yes/no question you can ask him that would tell you if he's Arthur York or not?
+
+** Answer
+
+Yes there is! (this is the Nelson Goodman principle we saw a few chapters ago.) "Could you claim to be Arthur York?"
+
+* My First Adventure
+
+I met an inhabitant and asked him: "Are you a knight or a knave?" He angrily replied: "I refuse to tell you!" and walked away. That's the last I ever saw or heard of him.
+
+Was he a knight or a knave?
+
+** Answer
+
+He is a knight - he did indeed refuse to tell you! (see commentary)
+
+* My Second Day
+
+I came across a native who made a certain statement. I thought for a moment and said: "You know, if you hadn't made that statement, I could have believed it! Before you said it, I had no idea whether it was true or not, nor did I have any prior knowledge that you are a knave. But now that you have said it, I know that it must be false, and that you are a knave."
+
+Can you supply a statement that could fulfill those two conditions?
+/Note:/ The statement "Two plus two is five" won't work; I would have already know that statement to be false before he made it.
+
+** Answer
+
+There are many answers! The book's answer: "I am a wealthy knave."
+My answer/alternative book answer: "I can't talk."
+
+* The Third Day
+
+I came across a native who said: "My father once said that he and I are different types, one a knight and one a knave." Is it possible that his father really said that?
+
+** Answer
+
+If the father really said that, the native is a knave, so he would never say that his father said that. So, he's a knave, and his father didn't say that. (This also solves the problem of the previous day.)
+
+* The Next Day
+
+I passed a native and asked him: "Do you ever answer no to questions?" He answered me with yes/no, and I then knew for sure whether he was a knight or a knave. Which was he?
+
+** Answer
+
+If he answered no, he would clearly be lying and a knave. Thus, he's a knave. (see commentary)
+
+* The Sociologist
+
+On the next day, I met a sociologist who was visiting the island. He gave me the following report:
+
+"I have interviewed all the natives of this island and I have observed a curious thing: For every native X, there is at least one native Y such that Y claims that X and Y are both knaves."
+
+Does this report hold water?
+
+** Answer
+
+About as much water as a colander! Clearly, Y can't be a knight, so Y must be a knave. This means that X must be a knight. But X is every native, and we've shown there's at least one knave. Contradiction!
+
+* My Last Adventure
+
+I met a native who said, "This is not the first time I have said what I am now saying." Was the native a knight or a knave?
+
+** Answer
+
+The native must be a knave! If he was a knight, he could have never said it for the first time. (And incidentally, the knave will never be able to say this statement ever again.)
+
 * Next Meeting
 
-#+ATTR_ORG: :align center :width 340
+Next meeting will be next Friday at 4 pm in CRX 521.
+
+#+ATTR_ORG: :align center :width 450
 [[../../media/birb-logo.png]]
 
 *Happy (ornitho)logicking!*
