@@ -128,6 +128,16 @@ Was he a knight or a knave?
 
 He is a knight - he did indeed refuse to tell you! (see commentary)
 
+* Bonus!
+
+I met an inhabitant who said "I am about to tell you whether I am a knight or a knave." From his next statement, I knew what he was. What is he?
+
+** Answer
+
+Either a knight or a knave could say "I am about to tell you whether I am a knight or a knave" followed by "I am a knight".
+
+The only way you could know if he's a knight or a knave is if the inhabitant's second statement was unrelated (such as "I have a leaf in my pocket"), meaning that the first statement is false. Therefore, he's a knave.
+
 * My Second Day
 
 I came across a native who made a certain statement. I thought for a moment and said: "You know, if you hadn't made that statement, I could have believed it! Before you said it, I had no idea whether it was true or not, nor did I have any prior knowledge that you are a knave. But now that you have said it, I know that it must be false, and that you are a knave."
