@@ -11,9 +11,9 @@ Today: finish chapter 4, start chapter 5!
 
 Arthur is an accurate truth-teller, Bernard is an inaccurate truth-teller, Charles is an accurate liar, David is an inaccurate liar.
 
-One day a logician came across one of the four brothers and asked him, "Who are you?" The brother identified himself as either Arthur, Bernard, Charles, or David, and the logician then knew who he was.
+One day a logician asks one of the four brothers, "Who are you?" The brother identified himself as one of the four, and the logician then knew who he was.
 
-A few minutes later, the same brother was met by a second logician, who asked him, "Who do you believe you are?" The brother answered, again either Arthur, Bernard, Charles, or David, and the second logician then knew who he was.
+A few minutes later, the same brother was met by a second logician, who asked him, "Who do you believe you are?" The brother answered, again with one of the four names, and the second logician then knew who he was.
 
 Who is he?
 
