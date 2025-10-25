@@ -1,0 +1,132 @@
+#+TITLE: To Spook a Spookingbird Chapter 5
+#+DATE: October 31st, 2025
+
+* To Spook and Spookingbird
+#+ATTR_ORG: :align center :width 480
+[[../../media/other-cover.jpg]]
+
+Today: into chapter 5 we go!
+
+* The Search for The Headless Horseman
+
+It is not known whether The Headless Horseman is a knight or a knave.
+
+Craig: What do you know about The Headless Horseman?
+Defendant: The Headless Horseman once claimed that I was a knave.
+Craig: Are you by any chance The Headless Horseman?
+Defendant: Yes.
+
+Is the defendant The Headless Horseman?
+
+** Answer
+
+Assume he's The Headless Horseman. Then, he's a knight, since he claims to be Arthur York. Therefore, he's claimed he's a knave: contradiction! So, he's a knave, and not Arthur York.
+
+* The Second Trial
+
+Craig: The last suspect was a queer bird; he actually claimed to be The Headless Horseman! Did /you/ ever claim to be Arthur York.
+Defendant: No.
+Craig: Did you ever claim that you are /not/ The Headless Horseman?
+Defendant: Yes.
+
+Is the defendant The Headless Horseman?
+
+** Answer
+
+If the defendant is a knight, he's not The Headless Horseman. If he's a knave, he's claimed to be Arthur York, so again he isn't Arthur York.
+
+* The Third Trial
+
+Defense Attorney: My client is indeed a knave, but he is not The Headless Horseman.
+Defendant: My attorney always tells the truth!
+
+Is the defendant The Headless Horseman?
+
+** Answer
+
+If the defendant is telling the truth, that leads to a contradiction. Therefore, the defendant is a knave, and the attorney is also a knave. The attorney's statement must thus be false, so the defendant is The Headless Horseman! We got him!
+
+* Bonus The Headless Horseman Encounter
+
+Given an arbitrary defendant that inhabits this island, is there a yes/no question you can ask him that would tell you if he's The Headless Horseman or not?
+
+** Answer
+
+Yes there is! (this is the Nelson Goodman principle we saw a few chapters ago.) "Could you claim to be The Headless Horseman?"
+
+* My First Adventure
+
+I met an inhabitant and asked him: "Are you a knight or a knave?" He angrily replied: "I refuse to tell you!" and walked away. That's the last I ever saw or heard of him.
+
+Was he a knight or a knave?
+
+** Answer
+
+He is a knight - he did indeed refuse to tell you! (see commentary)
+
+* Bonus!
+
+I met an inhabitant who said "I am about to tell you whether I am a knight or a knave." From his next statement, I knew what he was. What is he?
+
+** Answer
+
+Either a knight or a knave could say "I am about to tell you whether I am a knight or a knave" followed by "I am a knight".
+
+The only way you could know if he's a knight or a knave is if the inhabitant's second statement was unrelated (such as "I have a leaf in my pocket"), meaning that the first statement is false. Therefore, he's a knave.
+
+* My Second Day
+
+I came across a native who made a certain statement. I thought for a moment and said: "You know, if you hadn't made that statement, I could have believed it! Before you said it, I had no idea whether it was true or not, nor did I have any prior knowledge that you are a knave. But now that you have said it, I know that it must be false, and that you are a knave."
+
+Can you supply a statement that could fulfill those two conditions?
+/Note:/ The statement "Two plus two is five" won't work; I would have already know that statement to be false before he made it.
+
+** Answer
+
+There are many answers! The book's answer: "I am a wealthy knave."
+My answer/alternative book answer: "I can't talk."
+
+* The Third Day
+
+I came across a native who said: "My father once said that he and I are different types, one a knight and one a knave." Is it possible that his father really said that?
+
+** Answer
+
+If the father really said that, the native is a knave, so he would never say that his father said that. So, he's a knave, and his father didn't say that. (This also solves the problem of the previous day.)
+
+* The Next Day
+
+I passed a native and asked him: "Do you ever answer no to questions?" He answered me with yes/no, and I then knew for sure whether he was a knight or a knave. Which was he?
+
+** Answer
+
+If he answered no, he would clearly be lying and a knave. Thus, he's a knave. (see commentary)
+
+* The Sociologist
+
+On the next day, I met a sociologist who was visiting the island. He gave me the following report:
+
+"I have interviewed all the natives of this island and I have observed a curious thing: For every native X, there is at least one native Y such that Y claims that X and Y are both knaves."
+
+Does this report hold water?
+
+** Answer
+
+About as much water as a colander! Clearly, Y can't be a knight, so Y must be a knave. This means that X must be a knight. But X is every native, and we've shown there's at least one knave. Contradiction!
+
+* My Last Adventure
+
+I met a native who said, "This is not the first time I have said what I am now saying." Was the native a knight or a knave?
+
+** Answer
+
+The native must be a knave! If he was a knight, he could have never said it for the first time. (And incidentally, the knave will never be able to say this statement ever again.)
+
+* Next Meeting
+
+Next meeting will be next Friday at 4 pm in FTX 515.
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
