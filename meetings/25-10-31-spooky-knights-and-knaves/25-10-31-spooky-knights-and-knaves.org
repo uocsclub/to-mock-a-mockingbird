@@ -1,7 +1,7 @@
 #+TITLE: To Spook a Spookingbird Chapter 5
 #+DATE: October 31st, 2025
 
-* To Spook and Spookingbird
+* To Spook a Spookingbird
 #+ATTR_ORG: :align center :width 480
 [[../../media/other-cover.jpg]]
 
@@ -20,11 +20,11 @@ Is the defendant The Headless Horseman?
 
 ** Answer
 
-Assume he's The Headless Horseman. Then, he's a knight, since he claims to be Arthur York. Therefore, he's claimed he's a knave: contradiction! So, he's a knave, and not Arthur York.
+Assume he's The Headless Horseman. Then, he's a knight, since he claims to be The Headless Horseman. Therefore, he's claimed he's a knave: contradiction! So, he's a knave, and not The Headless Horseman.
 
 * The Second Trial
 
-Craig: The last suspect was a queer bird; he actually claimed to be The Headless Horseman! Did /you/ ever claim to be Arthur York.
+Craig: The last suspect was a queer bird; he actually claimed to be The Headless Horseman! Did /you/ ever claim to be The Headless Horseman.
 Defendant: No.
 Craig: Did you ever claim that you are /not/ The Headless Horseman?
 Defendant: Yes.
@@ -33,7 +33,7 @@ Is the defendant The Headless Horseman?
 
 ** Answer
 
-If the defendant is a knight, he's not The Headless Horseman. If he's a knave, he's claimed to be Arthur York, so again he isn't Arthur York.
+If the defendant is a knight, he's not The Headless Horseman. If he's a knave, he's claimed to be The Headless Horseman, so again he isn't The Headless Horseman.
 
 * The Third Trial
 
@@ -48,7 +48,7 @@ If the defendant is telling the truth, that leads to a contradiction. Therefore,
 
 * Bonus The Headless Horseman Encounter
 
-Given an arbitrary defendant that inhabits this island, is there a yes/no question you can ask him that would tell you if he's The Headless Horseman or not?
+Given an arbitrary defendant that inhabits this island, is there a yes/no question you can ask him that would tell you if he's The Headless Horseman or not (again assuming we don't know whether The Headless Horseman is a knight or a knave)?
 
 ** Answer
 
@@ -74,6 +74,21 @@ Either a knight or a knave could say "I am about to tell you whether I am a knig
 
 The only way you could know if he's a knight or a knave is if the inhabitant's second statement was unrelated (such as "I have a leaf in my pocket"), meaning that the first statement is false. Therefore, he's a knave.
 
+* Bonus 2!
+
+Is it possible for an inhabitant to say "You can't figure out whether I'm a knight or a knave from this statement"?
+
+** Answer
+
+The above statement is equivalent to saying "Both knights and knaves can make this statement."
+
+Assume the statement is true. That means a knave couldn't say it, which contradicts the true statement.
+
+Assume the statement is false. So, a knave could say it, and a knight couldn't. This is consistent.
+
+So, it's a false statement, and knaves can make it.
+
+Also, "You can figure out whether I'm a knight or a knave from this statement"/"It's false that both knights and knaves can say this" is true, and can only be said by knights.
 * My Second Day
 
 I came across a native who made a certain statement. I thought for a moment and said: "You know, if you hadn't made that statement, I could have believed it! Before you said it, I had no idea whether it was true or not, nor did I have any prior knowledge that you are a knave. But now that you have said it, I know that it must be false, and that you are a knave."

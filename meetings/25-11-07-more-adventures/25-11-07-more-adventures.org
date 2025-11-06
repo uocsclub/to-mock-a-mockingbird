@@ -1,0 +1,91 @@
+#+TITLE: To Mock a Mockingbird Chapters 5 and 6
+#+DATE: November 7th, 2025
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 480
+[[../../media/other-cover.jpg]]
+
+Today: finish chapter 5, start chapter 6!
+
+* The Next Day
+
+Reminder: all inhabitants of the island are either knights, who always tell the truth; or knaves, who always lie.
+
+I passed a native and asked him: "Do you ever answer no to questions?" He answered me with yes/no, and I then knew for sure whether he was a knight or a knave. Which was he?
+
+** Answer
+
+If he answered no, he would clearly be lying and a knave. Thus, he's a knave. (see commentary)
+
+* The Sociologist
+
+On the next day, I met a sociologist who was visiting the island. He gave me the following report:
+
+"I have interviewed all the natives of this island and I have observed a curious thing: For every native X, there is at least one native Y such that Y claims that X and Y are both knaves."
+
+Does this report hold water?
+
+** Answer
+
+About as much water as a colander! Clearly, Y can't be a knight, so Y must be a knave. This means that X must be a knight. But X is every native, and we've shown there's at least one knave. Contradiction!
+
+* My Last Adventure
+
+I met a native who said, "This is not the first time I have said what I am now saying." Was the native a knight or a knave?
+
+** Answer
+
+The native must be a knave! If he was a knight, he could have never said it for the first time. (And incidentally, the knave will never be able to say this statement ever again.)
+
+* Day-Knights and Night-Knights
+
+The strange city of Subterranea is completely underground, and all timepieces are strictly forbidden. Yet the inhabitants have an uncanny sense of time; they always know when it is day and when it is night.
+
+Each inhabitant either a day-knight or a night-knights (hard to type). The day-knights tell the truth during the day and lie during the night; the night-knights tell the truth during the night and lie during the day.
+
+Suppose you meet an inhabitant and are allowed to ask him as many yes/no questions as you like. What is the minimum number of questions you need ask to find out whether it is day or night?
+
+** Answer
+
+Just one: "are you a day-knight?"
+
+During the day, every inhabitant will claim to be a day-knight; during the knight, they will all claim to be night-knights.
+
+* Who are you?
+
+Suppose that you instead wish to know if the inhabitant to whom you are speaking is a day-knight or a night-knight. What is the smallest number of yes/no questions you need ask?
+
+** Answer
+
+Again, just one! "Is it daytime?"
+
+Day-knights always claim it's the day, while night-knights always claim it's nighttime.
+
+* Who are you part 2?
+
+I came across an inhabitant who made a statement. Before he spoke, I did not know whether he was a day-knight or a night-knight, or whether it was day or night. After he made the statement, I knew that he was a day-knight and that it was night. Can you supply such a statement?
+
+** Answer
+
+"It is day and I'm a night-knight." Compare "I am a wealthy knave" from the last chapter.
+
+This also combines are previous two insights: during the daytime, everyone claims to be a day-night and vice versa; and day-nights always claim it's the day, and vice versa.
+
+** Who are you part 3?
+
+On another occasion, I came across an inhabitant who made a statement from which I could deduce that he was a day-knight and that it was then day. What statement would work?
+
+** Answer
+
+"It is day or I'm a day-night."
+
+If the statement is true, then the speaker is a day-night and it's day. If the statement is false, it is night and the speaker is a night-knight: but then it would have to be true!
+
+* Next Meeting
+
+Next meeting will be next Friday at 4 pm in FTX 515. [CRX fully booked again :((]
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
