@@ -1,11 +1,11 @@
-#+TITLE: To Mock a Mockingbird Chapters 5 and 6
+#+TITLE: To Mock a Mockingbird Chapter 5
 #+DATE: November 7th, 2025
 
 * To Mock a Mockingbird
 #+ATTR_ORG: :align center :width 480
 [[../../media/other-cover.jpg]]
 
-Today: finish chapter 5, start chapter 6!
+Today: finish chapter 5!
 
 * The Next Day
 
@@ -36,50 +36,6 @@ I met a native who said, "This is not the first time I have said what I am now s
 ** Answer
 
 The native must be a knave! If he was a knight, he could have never said it for the first time. (And incidentally, the knave will never be able to say this statement ever again.)
-
-* Day-Knights and Night-Knights
-
-The strange city of Subterranea is completely underground, and all timepieces are strictly forbidden. Yet the inhabitants have an uncanny sense of time; they always know when it is day and when it is night.
-
-Each inhabitant either a day-knight or a night-knights (hard to type). The day-knights tell the truth during the day and lie during the night; the night-knights tell the truth during the night and lie during the day.
-
-Suppose you meet an inhabitant and are allowed to ask him as many yes/no questions as you like. What is the minimum number of questions you need ask to find out whether it is day or night?
-
-** Answer
-
-Just one: "are you a day-knight?"
-
-During the day, every inhabitant will claim to be a day-knight; during the knight, they will all claim to be night-knights.
-
-* Who are you?
-
-Suppose that you instead wish to know if the inhabitant to whom you are speaking is a day-knight or a night-knight. What is the smallest number of yes/no questions you need ask?
-
-** Answer
-
-Again, just one! "Is it daytime?"
-
-Day-knights always claim it's the day, while night-knights always claim it's nighttime.
-
-* Who are you part 2?
-
-I came across an inhabitant who made a statement. Before he spoke, I did not know whether he was a day-knight or a night-knight, or whether it was day or night. After he made the statement, I knew that he was a day-knight and that it was night. Can you supply such a statement?
-
-** Answer
-
-"It is day and I'm a night-knight." Compare "I am a wealthy knave" from the last chapter.
-
-This also combines are previous two insights: during the daytime, everyone claims to be a day-night and vice versa; and day-nights always claim it's the day, and vice versa.
-
-** Who are you part 3?
-
-On another occasion, I came across an inhabitant who made a statement from which I could deduce that he was a day-knight and that it was then day. What statement would work?
-
-** Answer
-
-"It is day or I'm a day-night."
-
-If the statement is true, then the speaker is a day-night and it's day. If the statement is false, it is night and the speaker is a night-knight: but then it would have to be true!
 
 * Next Meeting
 
