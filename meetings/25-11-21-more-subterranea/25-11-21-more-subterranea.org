@@ -1,0 +1,73 @@
+#+TITLE: To Mock a Mockingbird Chapter 6
+#+DATE: November 21st, 2025
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 480
+[[../../media/other-cover.jpg]]
+
+Today: finish chapter 5, start chapter 6!
+
+* What time is it?
+
+On another occasion I met an inhabitant who said: "During the daylight hours I claim it is night."
+
+Was it then day or night?
+
+** Answer
+
+It's nighttime! The inhabitant is essentially claiming that he's a night-knight. We've already seen that during daytime, everyone claims to be a day-knight; during nighttime, a night-knight.
+
+* What time is it *and* who are you?
+
+On another occasion, a native said to me: "During the day I claim that I am a night-knight. I am really a day-knight."
+
+I was happy that he made this statement because I could then deduce both his type and whether it was night or day. What was the solution? /Note/: In this and all other problems in this chapter, I am making the underlying assumption that it never changed from day or night or from night to day during the course of the conversation.
+
+** Answer
+
+No inhabitant claims to be a night-knight during the day, therefore he's lying. His next statement is that he's a day-knight, but he's lying, so he's a night-knight, and it's the day.
+
+* What time is it *and* who are you part 2?
+
+On one occasion an inhabiant said: "I am a night-knight and it is now day." Was he a day-knight or a night-knight? Was it then day or night?
+
+** Answer
+
+It's impossible for that statement to be truthfully said, so it's a false statement. This means that one or both of the sub-statements is false. From checking cases, we can see that both are false; so he's a day-night lying during the night. (Also, this is the solution to "who are you part 2" from above!)
+
+* Two questions now!
+
+On another occasion I asked an inhabitant two questions: "Are you a day-knight?" and "Is it now day?" He replied: "Yes is the correct answer to at least one of your questions."
+
+Was he a day-knight or a night-knight? Was it then day or night?
+
+** Answer
+
+Assume that the person is lying and no is the answer to both questions. This means that he's a night-knight during the night, so he should be telling the truth—a contradiction. Therefore, the person is telling the truth.
+
+If yes is the answer to the first question, it's also the answer to the second because he's telling the truth. Likewise, if yes is the answer to the second, it's also the answer to the first. So, both answers are yes, he's a day-knight, and it's the day.
+
+Incidentally, this is the solution to "who are you part 3"!
+
+* Twelve hours
+
+I once asked an inhabitant: "Is it true that twelve hours ago you claimed that you were a night-knight?" He replied: "No." I then asked him: "Twelve hours ago, did you claim that you were a day-knight?" He replied: "Yes".
+
+Was he a day-night or a night-knight?
+
+** Solution
+
+If he's telling the truth about both, then he claimed to be a day-night twelve hours ago. This means that it was day twelve hours ago, so it's currently night, and he's a night-knight (since he's telling the truth).
+
+If he's lying about both, he claimed to be a night-knight twelve hours ago. This means that it was night twelve hours ago, so it's currently day, and he's once again a night-knight (since he's lying).
+
+Either way, he's a night-knight; but we have no idea whether it's the day or the night. Also, I believe the second question is redundant.
+
+* Next Meeting
+
+Next meeting will be next Friday at 4 pm in CRX 520.
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
