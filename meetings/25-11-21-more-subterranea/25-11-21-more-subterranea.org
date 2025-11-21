@@ -5,8 +5,11 @@
 #+ATTR_ORG: :align center :width 480
 [[../../media/other-cover.jpg]]
 
-Today: finish chapter 5, start chapter 6!
+Today: chapter 6
 
+* Coming soon...
+#+ATTR_ORG: :align center :width 800
+[[./code_and_coffee.png]]
 * What time is it?
 
 On another occasion I met an inhabitant who said: "During the daylight hours I claim it is night."
@@ -21,7 +24,9 @@ It's nighttime! The inhabitant is essentially claiming that he's a night-knight.
 
 On another occasion, a native said to me: "During the day I claim that I am a night-knight. I am really a day-knight."
 
-I was happy that he made this statement because I could then deduce both his type and whether it was night or day. What was the solution? /Note/: In this and all other problems in this chapter, I am making the underlying assumption that it never changed from day or night or from night to day during the course of the conversation.
+I was happy that he made this statement because I could then deduce both his type and whether it was night or day. What was the solution?
+
+/Note/: In this and all other problems in this chapter, I am making the underlying assumption that it never changed from day or night or from night to day during the course of the conversation.
 
 ** Answer
 
@@ -29,7 +34,7 @@ No inhabitant claims to be a night-knight during the day, therefore he's lying. 
 
 * What time is it *and* who are you part 2?
 
-On one occasion an inhabiant said: "I am a night-knight and it is now day." Was he a day-knight or a night-knight? Was it then day or night?
+On one occasion an inhabitant said: "I am a night-knight and it is now day." Was he a day-knight or a night-knight? Was it then day or night?
 
 ** Answer
 
@@ -57,11 +62,23 @@ Was he a day-night or a night-knight?
 
 ** Solution
 
-If he's telling the truth about both, then he claimed to be a day-night twelve hours ago. This means that it was day twelve hours ago, so it's currently night, and he's a night-knight (since he's telling the truth).
+Everyone claims to be a day-night during the day and vice versa. So, asking "is it true that twelve hours ago you claimed that you were a night-knight" is the same as asking "Is it true that twelve hours ago was the night
+", which is equivalent to asking "Is it true that it's the day". The inhabitant answers no to this. Day-knights always claim it's the day and vice versa, so he's a night-knight.
 
-If he's lying about both, he claimed to be a night-knight twelve hours ago. This means that it was night twelve hours ago, so it's currently day, and he's once again a night-knight (since he's lying).
+* Two Brothers
 
-Either way, he's a night-knight; but we have no idea whether it's the day or the night. Also, I believe the second question is redundant.
+I once came across two brothers Miguel and Rémi and did not know the type of either, nor did I even know whether they were the same type. I also did not know whether it was day or night at the time. Here is what they said:
+
+  Miguel: At least one of us is a day-knight.
+  Rémi: Miguel is a night-knight.
+
+I then knew the type of each and whether it was night or day. What is the solution?
+
+** Solution
+
+Miguel's statement is either true or false. If it's false, that means they're both night-knights, and it's during the day. But then Rémi is saying a true statement as a night-knight during the day, which is a contradiction.
+
+Therefore Miguel's statement is true. If Miguel is a night-knight, then it's during the night, meaning Rémi is also a night-knight, which is a contradiction. So Miguel is a day-night and it's during the day. This means that Rémi is a night-knight.
 
 * Next Meeting
 
