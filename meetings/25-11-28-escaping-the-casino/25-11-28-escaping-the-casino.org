@@ -1,0 +1,131 @@
+#+TITLE: To Mock a Mockingbird Chapters 6/7
+#+DATE: November 28th, 2025
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 480
+[[../../media/other-cover.jpg]]
+
+Today: finish chapter 6 (escape the casino!), start chapter 7
+
+Do we want to continue during exam season?
+
+* Two Inhabitants
+
+On another occasion I came across two inhabitants A and B who made the following statements:
+
+A: Both of us are day-knights.
+B: That is not true!
+
+Which one should be believed?
+
+** Answer
+
+If they really were both day-knights, they would be in agreement. Since they disagree, they're different types, so B is telling the truth.
+
+* Jim Hawkins
+
+At last I made friends with one of the inhabitants—Jim Hawkins—whom I knew to be a day-knight. At one point he told me that some time earlier he had overheard a conversation between two inhabitants A and B in which A said that B was a day-knight and B said that A was a night-knight.
+
+Was it during the day or during the night that Jim told me this?
+
+** Answer
+
+For this, the time of day doesn't really matter. The statement is equivalent to A saying that B is a knight, and B saying A is a knave. This is impossible. Jim must be lying, so it's during the nighttime.
+
+* A Metapuzzle
+
+Inspector Craig of Scotland Yard also visited the city. Like every other visitor, he lost his sense of time after a few days. At one point he was desirous of knowing whether it was day or night. He came across a married couple but he didn't know whether the husband and wife were of the same type or different types. One of the two said: "My spouse and I are different types; one of us is a day-knight and one of us is a night-knight." Inspector Craig thought about this and said: "What I really want to know is whether it is now day or night. Which is it?" One of the two said: "It is now day." Inspector Craig then knew whether it was day or night.
+
+Was it day or night?
+
+** Solution
+
+Day-knights always claim it's day, and night-knights always claim it's night. Therefore, the one that said "it is now day" (let's call them Rémi) is a day-knight. If this is the same person that made the first statement, we learn nothing, so the first statement was made by the other person (let's say Miguel). If Miguel is a day-knight, then he's lying, so it's the night. If Miguel is a night-knight, then he's lying, so it's night. Therefore, the two statements were made by different people, and it's nighttime.
+
+* Gods, Demons, and Mortals
+
+Inspector Craig dreamed that he spent nine days in a region in which dwelled gods, demons, and mortals. The gods, of course, always told the truth, and the demons always lied. As to the mortals, half were knights and half were knaves. As usual, the knights told the truth and the knaves lied.
+
+#+ATTR_ORG: :align center :width 650
+[[./sampo.jpg]]
+* The First Day
+
+Craig dreamed that on the first day he met a dweller of the region who looked as if he might be a god, though Craig could not be sure. The dweller evidently guessed Craig's thoughts, smiled, and made a statement to reassure him. From this statement, Craig /knew/ that he was in the presence of a god.
+
+Can you supply such a statement?
+
+** Answer
+
+"I am not a knight" <=> "I am either a god, a demon, or a knave."
+* The Second Day
+
+In this episode of the dream, Craig met a terrifying-looking being who had every appearance of being a demon.
+
+"What sort of being are you?" asked Craig, in some alarm.
+
+The being answered, and Craig then realized that he was confronting not a demon, but a knave. What could the being have answered?
+
+** Answer
+
+"Fear me, for I am a demon!"
+
+* The Third Day
+
+In this episode, Craig met a totally nondescript-looking being who from appearances could have been anything at all. The being then made a statement from which Craig could deduce that he was either a god or a demon, but Craig could not tell which.
+
+Can you supply such a statement?
+
+** Answer
+
+"I am a god or a knave."
+
+* The Fourth Day
+
+Craig next met a being who made the following two statements:
+
+1. A god once claimed that I am a demon.
+2. No knight has ever claimed that I am a knave.
+
+What sort of being was he?
+
+** Answer
+
+The first statement is clearly false. That means the second is false as well, so the speaker is a knave.
+
+* The Fifth Day
+
+A being made the following two statements to Craig:
+
+1. I never claim to be a knave.
+2. I sometimes claim that I am a demon.
+
+What sort of being are we now dealing with?
+
+** Answer
+
+The second statement must be a lie. That means that the first is as well, so the speaker is a demon.
+
+* The Sixth Day
+
+In this episode, Craig came across /two/ beings, each of whom made a statement. Craig could then infer that at least one of them must be a god, but he could not tell which one. From neither statement alone couljd Craig have deduced this.
+
+What statements could the beings have made?
+
+** Answer
+
+First being's statement: "At least one of us isn't a knight."
+Second being's statement: "At least one of us isn't a knight."
+
+Book's answer:
+
+First being: "The other being is a knight."
+Second being: "The other being isn't a knight."
+
+* Next Meeting
+
+Next meeting will be next Friday at 4 pm in CRX 520.
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
