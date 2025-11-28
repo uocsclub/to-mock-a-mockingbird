@@ -9,28 +9,34 @@ Today: finish chapter 6 (escape the casino!), start chapter 7
 
 Do we want to continue during exam season?
 
+* Advent of Code
+#+ATTR_ORG: :align center :width 700
+[[./aoc.png]]
+
+Special Advent of Code event!
+
 * Two Inhabitants
 
-On another occasion I came across two inhabitants A and B who made the following statements:
+On another occasion I came across two inhabitants Rémi and Miguel who made the following statements:
 
-A: Both of us are day-knights.
-B: That is not true!
+Rémi: Both of us are day-knights.
+Miguel: That is not true!
 
 Which one should be believed?
 
 ** Answer
 
-If they really were both day-knights, they would be in agreement. Since they disagree, they're different types, so B is telling the truth.
+If they really were both day-knights, they would be in agreement. Since they disagree, they're different types, so Miguel is telling the truth.
 
 * Jim Hawkins
 
-At last I made friends with one of the inhabitants—Jim Hawkins—whom I knew to be a day-knight. At one point he told me that some time earlier he had overheard a conversation between two inhabitants A and B in which A said that B was a day-knight and B said that A was a night-knight.
+At last I made friends with one of the inhabitants—Jim Hawkins—whom I knew to be a day-knight. At one point he told me that some time earlier he had overheard a conversation between two inhabitants Rémi and Miguel in which Rémi said that Miguel was a day-knight and Miguel said that Rémi was a night-knight.
 
 Was it during the day or during the night that Jim told me this?
 
 ** Answer
 
-For this, the time of day doesn't really matter. The statement is equivalent to A saying that B is a knight, and B saying A is a knave. This is impossible. Jim must be lying, so it's during the nighttime.
+For this, the time of day doesn't really matter. The statement is equivalent to Rémi saying that Miguel is a knight, and Miguel saying Rémi is a knave. This is impossible. Jim must be lying, so it's during the nighttime.
 
 * A Metapuzzle
 
@@ -50,7 +56,7 @@ Inspector Craig dreamed that he spent nine days in a region in which dwelled god
 [[./sampo.jpg]]
 * The First Day
 
-Craig dreamed that on the first day he met a dweller of the region who looked as if he might be a god, though Craig could not be sure. The dweller evidently guessed Craig's thoughts, smiled, and made a statement to reassure him. From this statement, Craig /knew/ that he was in the presence of a god.
+Craig dreamed that on the first day he met a dweller of the region who looked as if he might be a god, though Craig could not be sure. The dweller evidently guessed Craig's thoughts, smiled benevolently, and made a statement to reassure him. From this statement, Craig /knew/ that he was in the presence of a god.
 
 Can you supply such a statement?
 
