@@ -98,35 +98,6 @@ What sort of being was he?
 
 The first statement is clearly false. That means the second is false as well, so the speaker is a knave.
 
-* The Fifth Day
-
-A being made the following two statements to Craig:
-
-1. I never claim to be a knave.
-2. I sometimes claim that I am a demon.
-
-What sort of being are we now dealing with?
-
-** Answer
-
-The second statement must be a lie. That means that the first is as well, so the speaker is a demon.
-
-* The Sixth Day
-
-In this episode, Craig came across /two/ beings, each of whom made a statement. Craig could then infer that at least one of them must be a god, but he could not tell which one. From neither statement alone couljd Craig have deduced this.
-
-What statements could the beings have made?
-
-** Answer
-
-First being's statement: "At least one of us isn't a knight."
-Second being's statement: "At least one of us isn't a knight."
-
-Book's answer:
-
-First being: "The other being is a knight."
-Second being: "The other being isn't a knight."
-
 * Next Meeting
 
 Next meeting will be next Friday at 4 pm in CRX 520.
