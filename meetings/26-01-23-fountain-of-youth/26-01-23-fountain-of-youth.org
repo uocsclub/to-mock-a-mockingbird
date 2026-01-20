@@ -1,0 +1,95 @@
+#+TITLE: To Mock a Mockingbird Chapters 7/8
+#+DATE: January 23rd, 2026
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 480
+[[../../media/other-cover.jpg]]
+
+Happy new year!
+Today: finish chapter 7, maybe start chapter 8.
+
+* Gods, Demons, and Mortals
+
+Inspector Craig dreamed that he spent nine days in a region in which dwelled gods, demons, and mortals. The gods, of course, always told the truth, and the demons always lied. As to the mortals, half were knights and half were knaves. As usual, the knights told the truth and the knaves lied.
+
+#+ATTR_ORG: :align center :width 650
+[[../25-11-28-escaping-the-casino/sampo.jpg]]
+* Introducing Thor
+
+On the eighth day, Craig met a being who had every appearance of being the god Thor. The being made a statement, and Craig then knew he must /be/ Thor.
+
+What statement could Thor have made?
+
+** Answer
+
+"I am Thor, a demon, or a knave."
+
+* A Perplexity Resolved
+
+Craig met two beings who each made statements which no knight, knave, god, or demon could possibly make. They are both mortal visitors from another realm. One if Cyrus, who always tells the truth, though he is not called a knight since he is not from this region. The other is Alexander, who sometimes tells the truth and sometimes lies.
+
+From the two statements, Craig could deduce that the first was Cyrus. However, if he hadn't later met Cyrus, he never could have known whether the first was Cyrus or Alexander. What statements could they have made?
+
+** Answer
+
+Cyrus: I am neither a knight nor a god.
+Alexander: I am a knave or a demon.
+
+* Epilogue—a Philosophical Puzzle
+
+The next morning when Craig was wide awake and recalling his dream, he wondered whether he had been logically inconsisent in his sleep. "The trouble is this," thought Craig: "In my dream I believed that Thor was a god and that gods always tell the truth. yet Thor told me that I wasn't dreaming. Now how could Thor, who tells the truth, say that I wasn't dreaming when in fact I was? Wasn't this an inconsistency on my part?"
+
+Would you say that Craig's dream was logically inconsistent?
+
+** Answer
+
+Let's say Craig believed he was dreaming. Then, these statements are indeed contradictory: Thor is a god; Gods make only true statements; Thor stated that Craig was not dreaming; Craig was dreaming.
+
+However, there is no evidence that Craig at any time of his dream believed that he /was/ dreaming. He presumably believed that he was awake, and this belief, though false, was perfectly consistent with the other beliefs of his dream.
+
+Alternate fun solution: perhaps he really /was/ awake and he's /now/ dreaming.
+
+* In Search of the Fountain of Youth
+
+Is it really possible to live forever?" he asked the Sage.
+
+"Oh, quite easily," replied the sage, "provided you do just two things."
+
+"What are the two things?" asked Reynolds eagerly.
+
+"First of all you must never make false statements; in fact, you must resolve to make only true statements from now on. That's a small price to pay for immortality, isn't it?"
+
+"Oh, definitely!" replied Reynolds. "But what about the second thing?"
+
+"The second thing is that you will say now: 'I will repeat this statement tomorrow.' If you do just those two things," continued the Sage, "then I guarantee you will live forever!"
+
+Is it really true that if you do these two things you will live forever?
+
+* A Preliminary Incident
+
+On the first day, Reynolds met a native who made a statement. Reynolds then realized that if the native was a knight, the Fountain of Youth must be on the island, but if the native was a knave, there was no way of telling whether or not the Fountain of Youth was on the island.
+
+What statement could the native have made?
+
+** Answer
+
+"I am a knight, and the Fountain of Youth is on this island!"
+
+* A Grand Metapuzzle
+A: If B is a knave, then the Fountain of Youth is on this island.
+B: I never claimed that the Fountain of Youth is not on this island!
+
+One of the two answers either yes or no, and Reynolds then knows whether the Fountain of Youth is on the island.
+
+Craig asks "Suppose the other had answered instead. Could you have decided whether or not the Fountain is on the island?"
+Reynolds responds (yes or no), and Craig knows whether the Fountain of Youth is on the island.
+
+Is the Fountain of Youth on the island?
+* Next Meeting
+
+Next meeting will be next Friday at 4 pm in CRX 520.
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
