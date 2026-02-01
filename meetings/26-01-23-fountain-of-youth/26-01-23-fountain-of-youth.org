@@ -28,7 +28,7 @@ What statement could Thor have made?
 
 Craig met two beings who each made statements which no knight, knave, god, or demon could possibly make. They are both mortal visitors from another realm. One if Cyrus, who always tells the truth, though he is not called a knight since he is not from this region. The other is Alexander, who sometimes tells the truth and sometimes lies.
 
-From the two statements, Craig could deduce that the first was Cyrus. However, if he hadn't later met Cyrus, he never could have known whether the first was Cyrus or Alexander. What statements could they have made?
+From the two statements, Craig could deduce that the first was Cyrus. However, if he hadn't later met Alexander, he never could have known whether the first was Cyrus or Alexander. What statements could they have made?
 
 ** Answer
 
@@ -79,9 +79,9 @@ What statement could the native have made?
 A: If B is a knave, then the Fountain of Youth is on this island.
 B: I never claimed that the Fountain of Youth is not on this island!
 
-One of the two answers either yes or no, and Reynolds then knows whether the Fountain of Youth is on the island.
+Reynolds then asks directly if the Fountain is on the island or not. One of the two answers either yes or no, and Reynolds then knows whether the Fountain of Youth is on the island.
 
-Craig asks "Suppose the other had answered instead. Could you have decided whether or not the Fountain is on the island?"
+Craig, not knowing who answered and what the answer was, asks "Suppose the other had answered instead. Do you know if you could have decided whether or not the Fountain is on the island?"
 Reynolds responds (yes or no), and Craig knows whether the Fountain of Youth is on the island.
 
 Is the Fountain of Youth on the island?
