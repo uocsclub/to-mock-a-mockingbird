@@ -2,10 +2,11 @@
 #+DATE: February 6th, 2026
 
 * To Mock a Mockingbird
-#+ATTR_ORG: :align center :width 480
-[[../../media/other-cover.jpg]]
+#+ATTR_ORG: :align center :width 550 :align center
+[[../../media/dore.jpg]]
 
 Today: more mockingbird mocking!
+
 
 * Egocentric?
 

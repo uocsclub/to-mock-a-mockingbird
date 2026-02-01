@@ -43,7 +43,7 @@ M /mimics/ x as for as its response to x goes. That means that if you call out x
 In other words, this means that C's response to x is the same as A's response to B's response to x.
 
 #+ATTR_ORG: :align center :width 500
-[[./dore.jpg]]
+[[../../media/dore.jpg]]
 * The Significance of the Mockingbird
 
 Composition condition: For any two birds A and B (whether the same for different), there is a bird C such that for any bird x, Cx = A(Bx).
