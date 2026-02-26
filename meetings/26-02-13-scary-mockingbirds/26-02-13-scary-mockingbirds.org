@@ -13,7 +13,7 @@ Suppose that the composition condition of Problem 1 holds and that A, B, and C a
 
 ** Answer
 
-Suppose that C is agreeable. Take any bird D. So there exists a bird E that composes D with B (in the future, I'm going to write composition birds E like D∘B to reduce the amount of letters I use). There exists a bird x on which C and E agree. So Cx = Ex. But Cx = A(Bx) and Dx = D(Bx). So A and D agree on Bx, and A is agreeable.
+Suppose that C is agreeable. Take any bird D. So there exists a bird E that composes D with B (in the future, I'm going to write composition birds E like D∘B to reduce the amount of letters I use). There exists a bird x on which C and E agree. So Cx = Ex. But Cx = A(Bx) and Ex = D(Bx). So A and D agree on Bx, and A is agreeable.
 
 * An Exercise in Composition
 
@@ -23,6 +23,10 @@ Again suppose that the composition condition holds. Prove that for any birds A, 
 
 Since B and C are birds, B∘C is also a bird. Since A and B∘C are birds, A∘(B∘C) are also birds. And for all birds x, (A∘(B∘C))x = A((B∘C)x) = A(B(Cx)). So D = A∘(B∘C).
 
+
+(A∘(B∘C))x = A((B∘C) x)
+((A∘B)∘C)x = (A∘B) (C x)
+A(B(Cx))
 * Compatible Birds
 
 Two birds A and B, either the same or different, are called /compatible/ if there is a bird x and a bird y, either the same or different such that Ax = y and By = x. This means that if you call out x to A then you will get y as a response, whereas if you call out y to B, you will get x as a response.
@@ -31,15 +35,15 @@ Prove that if both conditions of Problem 1 (the composition condition and the mo
 
 ** Answer
 
-Since, under the conditions of problem 1, every bird is fond of another, A∘B is fond of an x. So A(Bx) = x. Let Bx = y. Thus Ay = x and Bx = y, as desired.
+Since, under the conditions of problem 1, every bird is fond of another, A∘B is fond of an x. So A(Bx) = x. Let y = Bx. Thus Ay = x and Bx = y, as desired.
 
 Now, if we do this the other way around (like B∘A), do we get another pair that makes A and B compatible? From problem 1, we actually /know/ the x A∘B is fond of: x = (A∘B∘M)(A∘B∘M) = (A∘B)((A∘B∘M)(A∘B∘M)) = (A∘B)x. So y = B[(A∘B∘M)(A∘B∘M)] (I'm just using square brackets as another type, it's the same as round); Bx = y and Ay = x. Now, if we consider B∘A, x' = (B∘A∘M)(B∘A∘M) and y' = A[(B∘A∘M)(B∘A∘M)]; Ax' = y' and By' = x'. So unless A∘B = B∘A, then there are actually /two/ pairs where A and B are compatible!
 
-* Happy Birds
+* Frightened Birds
 
-A Bird A is called /happy/ if it is compatible with itself. This means that there are birds x and y such that Ax = y and Ay = x.
+A Bird A is called /frightened/ if it is compatible with itself. This means that there are birds x and y such that Ax = y and Ay = x.
 
-Prove that any bird that is fond of at least one bird must be a happy bird. (Note: no conditions are assumed here.)
+Prove that any bird that is fond of at least one bird must be a frightened bird. (Note: no conditions are assumed here.)
 
 ** Answer
 
@@ -47,13 +51,13 @@ Assume A is fond of x. So Ax = x. Taking y = x, Ax = y and Ay = x.
 
 * Normal Birds
 
-We will henceforth call a bird /normal/ if it is fond of at least one bird. We have just proved that every normal bird is happy. The converse is not necessarily true; a happy bird is not necessarily normal.
+We will henceforth call a bird /normal/ if it is fond of at least one bird. We have just proved that every normal bird is frightened. The converse is not necessarily true; a frightened bird is not necessarily normal.
 
-Prove that if the composition condition holds and if there is at least one happy bird in the forest, then there is at least one normal bird.
+Prove that if the composition condition holds and if there is at least one frightened bird in the forest, then there is at least one normal bird.
 
 ** Answer
 
-Let's assume there's a happy bird. So there's a bird B and two birds x and y where Bx = y and By = x. (B∘B)(x) = B(Bx) = By = x. So B∘B is happy! In fact, we can prove something stronger: either there is a bird that is fond of at least two distinct birds, or there are at least two different happy birds, or there's a projection bird (ie a bird P where P∘P = P).
+Let's assume there's a frightened bird. So there's a bird B and two birds x and y where Bx = y and By = x. (B∘B)(x) = B(Bx) = By = x. So B∘B is normal! In fact, we can prove something stronger: either there is a bird that is fond of at least two distinct birds, or there are at least two different frightened birds, or there's a projection bird (ie a bird P where P∘P = P).
 
 * Next Meeting
 
