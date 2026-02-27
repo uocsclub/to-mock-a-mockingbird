@@ -15,7 +15,7 @@ More generally, we say that a bird A is /fixated/ on a bird B if for every bird 
 
 A bird K is called a /kestrel/ if for any birds x and y, (Kx)y = x. Thus if K is a kestrel, then for every bird x, the bird Kx is fixated on x.
 
-Given both conditions of Problem 1 (the composition condition and the mockingbird condition) and the existence of a kestrel K, prove that at least one bird is hopelessly egocentric
+Given both conditions of Problem 1 (the composition condition and the mockingbird condition) and the existence of a kestrel K, prove that at least one bird is hopelessly egocentric.
 
 ** Answer
 
@@ -27,18 +27,22 @@ If x is fixated on y, does it necessarily follow that x is fond of y?
 
 (Recall: x is fond of y if xy = y)
 
+(Recall: we say that a bird A is /fixated/ on a bird B if for every bird x, Ax = B. That is, all A can think of is B! Then a bird is hopelessly egocentric in the case that it is fixated on itself.)
+
+
 ** Answer
 
-Yes!
-
+Yes! (Proof by trivial.)
 
 * A Fact About Kestrels
 
 Prove that if a kestrel is egocentric, then it must be hopelessly egocentric.
 
+(We recall that B is /egocentric/ if BB = B. We call B /hopelessly egocentric/ if for /every/ bird x, Bx = B.)
+
 ** Answer
 
-Suppose K is egocentric. So KK = K. Then for every x, Kx = (KK)x (since K is egocentric) = K. So K is hopelessly egocentric.
+Suppose K is egocentric. So KK = K. Then for every x, Kx = (KK)x (since K is egocentric) = K. So K = Kx, and K is hopelessly egocentric.
 
 * Another Fact About Kestrels
 
@@ -79,14 +83,16 @@ In general, it is not true that if Ax = Ay then x = y. However, it /is/ true if 
 ** Answer
 
 Suppose Kx = Ky. Pick a bird z. Then (Kx)z = (Ky)z. But (Kx)z = x and (Ky)z = y, so x = y.
-
 * A Fact about Fixation
 
 It is possible that a bird can be fond of more than one bird, but it is not possible for a bird to be fixated on more than one bird. Prove that it is impossible for a bird to be fixated on more than one bird.
 
+(Recall: we say that a bird A is /fixated/ on a bird B if for every bird x, Ax = B. That is, all A can think of is B! Then a bird is hopelessly egocentric in the case that it is fixated on itself.)
+
 ** Answer
 
-Assume A is fixated on x and A is fixated on y. Since A is fixated on x, for all z, Az = x. Since A is fixated on y, for all z, Az = y. So for all z, Az = x = y. So a = y, and they can't be distinct birds.
+Assume A is fixated on x and A is fixated on y. Since A is fixated on x, for all z, Az = x. Since A is fixated on y, for all z, Az = y. So for all z, Az = x = y. So x = y, and they can't be distinct birds.
+
 
 * Another Fact about Kestrels
 
@@ -94,7 +100,7 @@ Prove that for any kestrel K and any bird x, if K is fond of Kx, then K is fond 
 
 ** Answer
 
-Assume that K is fond of Kx. So K(Kx) = Kx. Then, for any z, K(Kx)z = (Kx)z, Kx = x. So K is fond of x.
+Assume that K is fond of Kx. So K(Kx) = Kx. By the left cancellation property, Kx = x. So K is fond of x.
 
 * A Riddle
 
@@ -102,7 +108,7 @@ Someone once said: "Any egocentric kestrel must be extremely lonely!" Why is thi
 
 ** Answer
 
-Let's assume K is egocentric. So KK = K. Take any x. So (KK)xK = KxK. (KK)xK simplifies to KK which simplifies to K by hypothesis, and KxK simplifies to x. So x = K. Therefore, this poor kestrel is all alone in the forest (for any arbitrary x, x must be K).
+Let's assume K is egocentric. So it's hopelessly egocentric (proved earlier), so for all x, Kx = K. Take any two birds x and y. So Kx = K = Ky. By the left cancelation law, x = y. So all the birds are the same, and there exists a kestrel, therefore the kestrel is all alone in the forest :'(
 * Next Meeting
 
 Next Friday, CRX 540, 4 PM
