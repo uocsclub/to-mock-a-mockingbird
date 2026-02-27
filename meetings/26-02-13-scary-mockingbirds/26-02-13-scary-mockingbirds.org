@@ -57,7 +57,7 @@ Prove that if the composition condition holds and if there is at least one frigh
 
 ** Answer
 
-Let's assume there's a frightened bird. So there's a bird B and two birds x and y where Bx = y and By = x. (B∘B)(x) = B(Bx) = By = x. So B∘B is normal! In fact, we can prove something stronger: either there is a bird that is fond of at least two distinct birds, or there are at least two different frightened birds, or there's a projection bird (ie a bird P where P∘P = P).
+Let's assume there's a frightened bird. So there's a bird B and two birds x and y where Bx = y and By = x. (B∘B)(x) = B(Bx) = By = x. So B∘B is normal!
 
 * Next Meeting
 
