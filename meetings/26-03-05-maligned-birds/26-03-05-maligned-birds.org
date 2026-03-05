@@ -1,0 +1,111 @@
+#+TITLE: To Mock a Mockingbird Chapter 9
+#+DATE: March 5th, 2026
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 550 :align center
+[[../../media/dore.jpg]]
+
+Today: maligned birds...
+
+* A maligned bird
+
+A bird I is called an /identity/ bird if for every bird x the following condition holds: Ix = x.
+
+Suppose we are told that the forest contains an identity bird I and I is agreeable. Does it follow that every bird must be fond of at least one bird? (We are no longer given composition/mockingbird conditions)
+
+** Answer
+
+Yes! Suppose I is agreeable. Let A be an arbitrary bird. So there's a bird x upon which I and A agree, Ix = Ax. Well, Ix = x, so Ax = x.
+
+* The other way
+
+Suppose we are told that there is an identity bird I and that every bird is fond of at least one bird. Does it necessarily follow that I is agreeable?
+
+** Answer
+
+Again, another yes. Let A be a bird. Since A is normal, Ax = x for some x. But x = Ix, so Ax = Ix. Thus I and A agree on x.
+
+* Drawing conclusions
+
+Suppose I exists, but we do not know whether it's agreeable or not. However, we are told that every pair of birds is compatible. Which of the following conclusions can be validly drawn?
+
+1. Every bird is normal
+2. I is agreeable
+
+** Answer
+
+From the previous two questions, 1. and 2. are equivalent. Take any bird A. Since A and I are compatible, there exist x and y such that Ax = y and Iy = x. Now, Iy = y, so we have x = y. Since Ax = y, Ax = x, and A is normal.
+
+* Why?
+
+The identity bird I, thought egocentric, is in general not /hopelessly/ egocentric. Indeed, if there were a hopelessly egocentric identity bird, the situation would be quite sad. Why?
+
+** Answer
+
+If I is hopelessly egocentric, Ix = I for all x. So I is the only bird in the forest, all alone.
+
+* Larks
+
+A bird L is called a /lark/ if for any birds x and y the following holds:
+
+Lxy = x(yy)
+
+Prove that if the forest contains a lark L and an identity bird I, then it must also contain a mockingbird M.
+
+** Answer
+
+Let M be LI. In other words, M is the bird that L calls back when you call I to it. For any x, Mx = LIx = I(xx) = xx.
+
+* Spreader of Joy (Lightbringer?)
+
+One reason I like larks it this: if there is a lark in the forest, then it follows without further ado that every bird is fond of at least one bird. And so you see, the lark has a wonderful effect on the forest as a whole; its presence makes every bird normal. And since all normal birds are happy, by Problem 7, then a lark L in the forest causes all birds to be happy!
+
+Why is this true?
+
+** Answer
+
+Take any bird A. Consider x = (LA)(LA). By L's rule, this is the same as A[(LA)(LA)] = Ax. So Ax = x! Thus A is normal, and happy.
+
+very useful: A is fond of (LA)(LA)
+
+* Another Riddle
+
+Why is a hopelessly egocentric lark unusually attractive?
+
+** Answer
+
+If a lark L is hopelessly egocentric, that means Lx = L for all x. So LxL = x(L) = xL by the lark rule, but by it's hopeless egocentricity, LxL = LL = L. So L = xL, all birds are found of L!
+
+* Hybrids?
+
+Assuming that no bird can be both a lark and a kestrel—as any ornithologist knows!—prove that it is impossible for a lark to be fond of a kestrel.
+
+** Answer
+
+Assume that a lark is fond of a kestrel. So LK = K. LKx = K(xx) = Kx. So by the left cancellation law for kestrels, for every x, x = xx.
+
+But this is clearly not true. Suppose K = KK. Then K(KL)K = KK(KL)K => KL = KK => L = K. By hypothesis, this is a contradiction.
+
+* Other way around?
+
+It might happen, however, that a kestrel K is fond of a lark L. Show that if this happens, then every bird is fond of L.
+
+** Answer
+
+Assume K is fond of L. So KL = L. Thus KLy = L  =>  Ly = L. So the lark is hopelessly egocentric, and we've shown above that this implies it's strangely attractive.
+
+* Whaaat?
+
+Now let me tell you the most surprising thing I know about larks: Suppose we are given that the forest contains a lark L and we are not given any other information. From just this one fact alone, it can be proved that at least one bird in the forest must be egocentric!
+
+Hint: construct an egocentric bird using just the letter L and parentheses
+
+
+* Next Meeting
+
+Next Friday, CRX 540, 4 PM
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
