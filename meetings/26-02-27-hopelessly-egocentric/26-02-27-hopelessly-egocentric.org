@@ -1,5 +1,5 @@
 #+TITLE: To Mock a Mockingbird Chapter 9
-#+DATE: February 26th, 2026
+#+DATE: February 27th, 2026
 
 * To Mock a Mockingbird
 #+ATTR_ORG: :align center :width 550 :align center
@@ -108,7 +108,7 @@ Someone once said: "Any egocentric kestrel must be extremely lonely!" Why is thi
 
 ** Answer
 
-Let's assume K is egocentric. So it's hopelessly egocentric (proved earlier), so for all x, Kx = K. Take any two birds x and y. So Kx = K = Ky. By the left cancelation law, x = y. So all the birds are the same, and there exists a kestrel, therefore the kestrel is all alone in the forest :'(
+Let's assume K is egocentric. From before, we know that K is hopelessly egocentric ("A Fact about Kestrels"). Take any bird x. So Kx = K = KK, and by the left cancellation law, K = x. So the only bird in the forest is this kestrel :'(
 * Next Meeting
 
 Next Friday, CRX 540, 4 PM
