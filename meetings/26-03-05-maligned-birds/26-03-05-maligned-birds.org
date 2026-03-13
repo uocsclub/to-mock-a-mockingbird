@@ -74,7 +74,7 @@ Why is a hopelessly egocentric lark unusually attractive?
 
 ** Answer
 
-If a lark L is hopelessly egocentric, that means Lx = L for all x. So LxL = x(L) = xL by the lark rule, but by it's hopeless egocentricity, LxL = LL = L. So L = xL, all birds are found of L!
+If a lark L is hopelessly egocentric, that means Lx = L for all x. So LxL = x(LL) = xL by the lark rule, but by it's hopeless egocentricity, LxL = LL = L. So L = xL, all birds are found of L!
 
 * Hybrids?
 
@@ -86,24 +86,11 @@ Assume that a lark is fond of a kestrel. So LK = K. LKx = K(xx) = Kx. So by the 
 
 But this is clearly not true. Suppose K = KK. Then K(KL)K = KK(KL)K => KL = KK => L = K. By hypothesis, this is a contradiction.
 
-* Other way around?
-
-It might happen, however, that a kestrel K is fond of a lark L. Show that if this happens, then every bird is fond of L.
-
-** Answer
-
-Assume K is fond of L. So KL = L. Thus KLy = L  =>  Ly = L. So the lark is hopelessly egocentric, and we've shown above that this implies it's strangely attractive.
-
-* Whaaat?
-
-Now let me tell you the most surprising thing I know about larks: Suppose we are given that the forest contains a lark L and we are not given any other information. From just this one fact alone, it can be proved that at least one bird in the forest must be egocentric!
-
-Hint: construct an egocentric bird using just the letter L and parentheses
-
+NB. Even stronger, we can show that all birds are identical, which is another clear contradiction! If KK = K, then KKxy = Kxy, for all x and y. So Ky = x for all x and y. Thus all birds are equal.
 
 * Next Meeting
 
-Next Friday, CRX 540, 4 PM
+Next Friday, MRT 403, 4 PM
 
 #+ATTR_ORG: :align center :width 450
 [[../../media/birb-logo.png]]

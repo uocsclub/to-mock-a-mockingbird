@@ -111,7 +111,7 @@ Someone once said: "Any egocentric kestrel must be extremely lonely!" Why is thi
 Let's assume K is egocentric. From before, we know that K is hopelessly egocentric ("A Fact about Kestrels"). Take any bird x. So Kx = K = KK, and by the left cancellation law, K = x. So the only bird in the forest is this kestrel :'(
 * Next Meeting
 
-Next Friday, CRX 540, 4 PM
+Next Friday, CRX 520, 4 PM
 
 #+ATTR_ORG: :align center :width 450
 [[../../media/birb-logo.png]]
