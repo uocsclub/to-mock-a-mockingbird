@@ -1,11 +1,11 @@
-#+TITLE: To Mock a Mockingbird Chapter 9
+#+TITLE: To Mock a Mockingbird Chapter 9 (maybe 10)
 #+DATE: March 13th, 2026
 
 * To Mock a Mockingbird
 #+ATTR_ORG: :align center :width 550 :align center
 [[../../media/dore.jpg]]
 
-Today: oh my, it's Friday the 13th again!
+Today: oh my, it's Friday the 13th again! A dozen larks walk into a bar (maybe for St Patrick's day?), and we will perhaps encounter a wise bird.
 
 * Other way around?
 
@@ -33,6 +33,19 @@ In particular, taking x = y, we get (xx)(xx) = xx.
 
 So xx is egocentric! And we know that A is fond of (LA)(LA), so x = (L(LL))(L(LL)). Thus xx = ((L(LL))(L(LL)))((L(LL))(L(LL))) is egocentric.
 
+* Is there a sage bird?
+
+A sage bird Θ: if you call out x to Θ, Θ responds with a bird of which x is fond.
+
+In other words, x(Θx) = Θx
+
+We have the mockingbird condition, the composition condition, and additionally, there is a bird A where if you call out X to A, A responds by naming a bird that composes x with M.
+
+** Solution
+
+Consider Ax = x∘M. Thus Axy = (x∘M)(y) = x(My) = x(yy). So A is just the lark L!
+
+We know that any bird B is fond of (LB)(LB) = M(LB), so let Θ = M∘L by the composition condition. This means that when you call out x to Θ, it will respond with M(Lx), of which x is fond.
 
 * Next Meeting
 
