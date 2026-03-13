@@ -21,6 +21,18 @@ Now let me tell you the most surprising thing I know about larks: Suppose we are
 
 Hint: construct an egocentric bird using just the letter L and parentheses
 
+(Additional hints will be provided upon request)
+
+** Answer
+
+Consider the bird LL. We know that in a forest containing a lark, every bird is normal. So LL is fond of some x, that is, (LL)x = x.
+
+LLx = x, L(xx) = x, L(xx)y = xy for all y, (xx)(yy) = xy
+
+In particular, taking x = y, we get (xx)(xx) = xx.
+
+So xx is egocentric! And we know that A is fond of (LA)(LA), so x = (L(LL))(L(LL)). Thus xx = ((L(LL))(L(LL)))((L(LL))(L(LL))) is egocentric.
+
 
 * Next Meeting
 
