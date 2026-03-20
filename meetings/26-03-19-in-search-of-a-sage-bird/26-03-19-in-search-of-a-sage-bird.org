@@ -71,8 +71,21 @@ Given a bluebird B and a mockingbird M, can you see how to write down an express
 
 ** Answer
 
+Book's answer: M is fond of some x, namely, M(BMM). We've seen before that if M is fond of x, x is egocentric. So M(BMM) is egocentric.
 
+My answer:
 
+Consider the bird BM. BM is fond of an x, so (BM)x = x. (BM)xy = xy, M(xy) = xy, (xy)(xy) = xy, xy is egocentric.
+
+We can actually write x (from the last problem) as M(B(BM)M). So for all y, M(B(BM)M)y is egocentric.
+
+* Hopelessly egocentric
+
+Now, suppose a forest contains a bluebird B, a mockingbird M, and a kestrel K. See if you can write down an expression in terms of B, M, and K for a hopelessly egocentric bird.
+
+** Answer
+
+There is a bird K is fond of. We've seen before that if Kx = x, x is hopelessly egocentric. So x = M(BKM) is hopelessly egocentric.
 
 * Next Meeting
 
