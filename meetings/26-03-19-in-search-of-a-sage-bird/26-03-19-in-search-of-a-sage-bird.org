@@ -76,7 +76,7 @@ Given a bluebird B and a mockingbird M, can you see how to write down an express
 
 * Next Meeting
 
-Next Friday, CRX 520, 4 PM
+Next Friday, FTX 525A, 4 PM
 
 #+ATTR_ORG: :align center :width 450
 [[../../media/birb-logo.png]]
