@@ -1,0 +1,84 @@
+#+TITLE: To Mock a Mockingbird Chapter 10/11
+#+DATE: March 19th, 2026
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 500 :align center
+[[../../media/dore.jpg]]
+
+Today: we search for a sage bird, then encounter more birds than we could have ever hoped for
+
+* A dozen larks walk into a bar
+
+Now let me tell you the most surprising thing I know about larks: Suppose we are given that the forest contains a lark L and we are not given any other information. From just this one fact alone, it can be proved that at least one bird in the forest must be egocentric!
+
+Hint: construct an egocentric bird using just the letter L and parentheses
+
+(Additional hints will be provided upon request)
+
+** Answer
+
+Consider the bird LL. We know that in a forest containing a lark, every bird is normal. So LL is fond of some x, that is, (LL)x = x.
+
+LLx = x, L(xx) = x, L(xx)y = xy for all y, (xx)(yy) = xy
+
+In particular, taking x = y, we get (xx)(xx) = xx.
+
+So xx is egocentric! And we know that A is fond of (LA)(LA), so x = (L(LL))(L(LL)). Thus xx = ((L(LL))(L(LL)))((L(LL))(L(LL))) is egocentric.
+
+* Is there a sage bird?
+
+A sage bird Θ: if you call out x to Θ, Θ responds with a bird of which x is fond.
+
+In other words, x(Θx) = Θx
+
+We have the mockingbird condition, the composition condition, and additionally, there is a bird A where if you call out X to A, A responds by naming a bird that composes x with M.
+
+** Solution
+
+Consider Ax = x∘M. Thus Axy = (x∘M)(y) = x(My) = x(yy). So A is just the lark L!
+
+We know that any bird B is fond of (LB)(LB) = M(LB), so let Θ = M∘L by the composition condition. This means that when you call out x to Θ, it will respond with M(Lx), of which x is fond.
+
+* Birds Galore
+
+Suppose A₁ = A₂. Can we conclude that BA₁ = BA₂? And can we conclude that A₁B = A₂B
+
+Suppose xy = z. Which of the following conclusions is valid?
+1. xyw = zw
+2. wxy = wz
+
+* Bluebirds
+
+Bxyz = x(yz)
+
+For one thing, if a forest contains a bluebird—which this forest fortunately does—then the basic composition law must hold: for any bird C and D, there is a bird E that composes C with D. Can you see why?
+* Bluebirds and Mockingbirds
+
+Suppose that a bird forest contains a bluebird B and a mockingbird M. Since B is present, the composition law holds. Therefore, as you know, it follows that every bird x is fond of some bird. However, since B is present, you cacn write down an expression in terms of B, M, and x that describes a bird of which x is fond. Can  you see how to write down such an expression?
+
+** Answer
+
+let f = M(BxM)
+= (BxM)(BxM)
+= x(M(BxM))
+= x((BxM)(BxM))
+= x f
+so x is fond of f.
+
+* Egocentric
+
+Given a bluebird B and a mockingbird M, can you see how to write down an expression for an egocentric bird?
+
+** Answer
+
+
+
+
+* Next Meeting
+
+Next Friday, CRX 520, 4 PM
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
