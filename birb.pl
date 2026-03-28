@@ -19,10 +19,12 @@ match(_,[Else_0])             :- call(Else_0).
 match(X,[(Pat,Then_0)|Elses]) :- if_(X=Pat,Then_0,match(X,Elses)).
 
 eval1(Xs,A) :- match(Xs,
-	[ (['I'|X],         eval(X,A))
+	[ (['M'|X],         eval([X|X],A))
 	, ([['K'|X]|_],     eval(X,A))
-	, ([[['S'|X]|Y]|Z], eval([[X|Z]|[Y|Z]],A))
+	, (['I'|X],         eval(X,A))
+	, ([['L'|X]|Y],     eval([X|[Y|Y]],A))
 	, ([[['B'|X]|Y]|Z], eval([X|[Y|Z]],A))
+	, ([[['S'|X]|Y]|Z], eval([[X|Z]|[Y|Z]],A))
 	, A=Xs
 	]).
 
