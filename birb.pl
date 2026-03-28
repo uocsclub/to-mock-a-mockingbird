@@ -26,7 +26,7 @@ eval1(Xs,A) :- match(Xs,
 	, A=Xs
 	]).
 
-eval(X,X) :- atom_si(X).
+eval(X,      X) :- atom_si(X).
 eval([X0|Xs],E) :- eval(X0,X1), eval1([X1|Xs],E).
 
 eval_strict_(X,       X)        :- atom_si(X).
