@@ -36,14 +36,11 @@ eval_strict --> eval, eval_strict_.
 run        --> parse, eval,        unparse.
 run_strict --> parse, eval_strict, unparse.
 ?- run("BBBBBxyzwv",Out).
-%    Out = "x(y(zw))v"
-% ;  ... .
+   Out = "x(y(zw))v" ;  ... .
 ?- run("Ia(Ib)",Out).
-%    Out = "a(Ib)"
-% ;  ... .
+   Out = "a(Ib)" ;  ... .
 ?- run_strict("Ia(Ib)",Out).
-%    Out = "ab"
-% ;  ... .
+   Out = "ab" ;  ... .
 
 
 bigb(B,        B)  :- atom_si(B).  % x(yz) -> B, xyz -> x
@@ -52,14 +49,11 @@ bigb([B|C],    Bs) :- atom_si(C), dif(C,'B'), bigb(B,Bs).
 bigb([B|[C|D]],Bs) :- bigb([[['B'|B]|C]|D],Bs).
 bluebird --> parse, bigb, eval_strict, unparse.  % eval simplifies
 ?- Target = "x(yz)(ab(cd))", bluebird(Target,S0), append(S0,"xyzabcd",S1), run_strict(S1,Target).
-%    Target = "x(yz)(ab(cd))", S0 = "BB(B(B(BB(BB))B))", S1 = "BB(B(B(BB(BB))B))xyzabcd"
-% ;  ... .
-
+   Target = "x(yz)(ab(cd))", S0 = "BB(B(B(BB(BB))B))", S1 = "BB(B(B(BB(BB))B))xyz ..." ;  ... .
 
 abstract_(X,X,    'I').
 abstract_(X,B,    ['K'|B])       :- atom_si(B), dif(B,X).
 abstract_(X,[B|C],[['S'|B_]|C_]) :- abstract_(X,B,B_), abstract_(X,C,C_).
 abstract(Vars) --> { reverse(Vars,Vars_) }, parse, foldl(abstract_,Vars_), unparse.  % eval would never simplify here unless the input could already be simplified
 ?- Target = "x(yz)", abstract("xyz",Target,S0), append(S0,"xyz",S1), run_strict(S1,Target).
-%    Target = "x(yz)", S0 = "S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(S(KK)I))))(S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(KI))))(S(KK)(KI)))", S1 = "S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(S(KK)I))))(S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(KI))))(S(KK)(KI)))xyz"
-% ;  ... .
+   Target = "x(yz)", S0 = "S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(S(KK)I))))(S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(KI))))(S(KK)(KI)))", S1 = "S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(S(KK)I))))(S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(KI))))(S(KK)(KI)))xyz" ;  ... .  % the query succeeded and didn't fail, meaning that S1 evaluates to Target
