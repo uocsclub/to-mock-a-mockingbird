@@ -31,7 +31,13 @@ A sage bird Θ: if you call out x to Θ, Θ responds with a bird of which x is f
 
 In other words, x(Θx) = Θx
 
-We have the mockingbird condition, the composition condition, and additionally, there is a bird A where if you call out X to A, A responds by naming a bird that composes x with M.
+Reminder: By the composition condition, for any bird x, there is /some/ bird y that composes x with the mockingbird M. Then, x is fond of the bird yy.
+y = x∘M
+yy = (x∘M)(x∘M) = x(M(x∘M)) = x((x∘M)(x∘M)) = x(yy)
+
+Composition condition: for any two birds A and B, there exists a bird C that composes A and B. So Cx = A(Bx) for all x.
+
+We have the mockingbird condition, the composition condition, and additionally, there is a bird A where if you call out x to A, A responds by naming a bird that composes x with M, ie, Axz = x(Mz) ∀x, z
 
 ** Solution
 
@@ -40,6 +46,8 @@ Consider Ax = x∘M. Thus Axy = (x∘M)(y) = x(My) = x(yy). So A is just the lar
 We know that any bird B is fond of (LB)(LB) = M(LB), so let Θ = M∘L by the composition condition. This means that when you call out x to Θ, it will respond with M(Lx), of which x is fond.
 
 * Birds Galore
+Birds associate to the left:
+xyzw = ((xy)z)w
 
 Suppose A₁ = A₂. Can we conclude that BA₁ = BA₂? And can we conclude that A₁B = A₂B
 
@@ -54,7 +62,9 @@ Bxyz = x(yz)
 For one thing, if a forest contains a bluebird—which this forest fortunately does—then the basic composition law must hold: for any bird C and D, there is a bird E that composes C with D. Can you see why?
 * Bluebirds and Mockingbirds
 
-Suppose that a bird forest contains a bluebird B and a mockingbird M. Since B is present, the composition law holds. Therefore, as you know, it follows that every bird x is fond of some bird. However, since B is present, you cacn write down an expression in terms of B, M, and x that describes a bird of which x is fond. Can  you see how to write down such an expression?
+Suppose that a bird forest contains a bluebird B and a mockingbird M. Since B is present, the composition law holds. Therefore, as you know, it follows that every bird x is fond of some bird. However, since B is present, you can write down an expression in terms of B, M, and x that describes a bird of which x is fond. Can you see how to write down such an expression?
+
+Reminder: x is fond of M(x∘M)
 
 ** Answer
 
@@ -67,7 +77,7 @@ so x is fond of f.
 
 * Egocentric
 
-Given a bluebird B and a mockingbird M, can you see how to write down an expression for an egocentric bird?
+Given a bluebird B [Bxyz = x(yz)] and a mockingbird M [Mx = xx], can you see how to write down an expression for an egocentric bird?
 
 ** Answer
 
@@ -78,14 +88,6 @@ My answer:
 Consider the bird BM. BM is fond of an x, so (BM)x = x. (BM)xy = xy, M(xy) = xy, (xy)(xy) = xy, xy is egocentric.
 
 We can actually write x (from the last problem) as M(B(BM)M). So for all y, M(B(BM)M)y is egocentric.
-
-* Hopelessly egocentric
-
-Now, suppose a forest contains a bluebird B, a mockingbird M, and a kestrel K. See if you can write down an expression in terms of B, M, and K for a hopelessly egocentric bird.
-
-** Answer
-
-There is a bird K is fond of. We've seen before that if Kx = x, x is hopelessly egocentric. So x = M(BKM) is hopelessly egocentric.
 
 * Next Meeting
 
