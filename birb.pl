@@ -43,13 +43,26 @@ run_strict --> parse, eval_strict, unparse.
    Out = "ab" ;  ... .
 
 
+
+% 🅱️🅱️
+% 🅱️ 🅱️
+% 🅱️🅱️
+% 🅱️ 🅱️
+% 🅱️🅱️
+
 bigb(B,        B)  :- atom_si(B).  % x(yz) -> B, xyz -> x
 bigb(Bs,       Bs) :- Bs = [_|'B'].
 bigb([B|C],    Bs) :- atom_si(C), dif(C,'B'), bigb(B,Bs).
 bigb([B|[C|D]],Bs) :- bigb([[['B'|B]|C]|D],Bs).
 bluebird --> parse, bigb, eval_strict, unparse.  % eval simplifies
 ?- Target = "x(yz)(ab(cd))", bluebird(Target,S0), append(S0,"xyzabcd",S1), run_strict(S1,Target).
-   Target = "x(yz)(ab(cd))", S0 = "BB(B(B(BB(BB))B))", S1 = "BB(B(B(BB(BB))B))xyz ..." ;  ... .
+   Target = "x(yz)(ab(cd))", S0 = "BB(B(B(BB(BB))B))", S1 = "BB(B(B(BB(BB))B))xyzabcd" ;  ... .
+
+
+
+%--------------------
+% bracket abstraction
+%--------------------
 
 abstract_(X,X,    'I').
 abstract_(X,B,    ['K'|B])       :- atom_si(B), dif(B,X).
