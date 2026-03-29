@@ -26,25 +26,24 @@ appl(X)   --> ws, atom(X), ws.
 parse(S,AST)   :- reverse(S,S_), phrase(appl(AST),S_).
 unparse(AST,S) :- phrase(appl(AST),S_), reverse(S,S_).
 
-match(_,[Else_0])             :- call(Else_0).
-match(X,[(Pat,Then_0)|Elses]) :- if_(X=Pat,Then_0,match(X,Elses)).
+rewrite(Xs,Xs,[]).
+rewrite(Xs,A,[(Pat,Rew)|Elses]) :- if_(Xs=Pat,eval(Rew,A),rewrite(Xs,A,Elses)).
 
-eval1(Xs,A) :- match(Xs,
-	[ ("M"@X,                   eval(X@X,A))
-	, ("K"@X@_,                 eval(X,A))
-	, ("I"@X,                   eval(X,A))
-	, ("L"@X@Y,                 eval(X@(Y@Y),A))
-	, ("B"@X@Y@Z,               eval(X@(Y@Z),A))
-	, ("D"@X@Y@Z@W,             eval(X@Y@(Z@W),A))
-	, ("B1"@X@Y@Z@W,            eval(X@(Y@Z@W),A))
-	, ("E"@X@Y@Z@W@V,           eval(X@Y@(Z@W@V),A))
-	, ("B2"@X@Y@Z@W@V,          eval(X@(Y@Z@W@V),A))
-	, ("D1"@X@Y@Z@W@V,          eval(X@Y@Z@(W@V),A))
-	, ("B3"@X@Y@Z@W,            eval(X@(Y@(Z@W)),A))
-	, ("D2"@X@Y@Z@W@V,          eval(X@(Y@Z)@(W@V),A))
-	, ("Ê"@X@Y1@Y2@Y3@Z1@Z2@Z3, eval(X@(Y1@Y2@Y3)@(Z1@Z2@Z3),A))
-	, ("S"@X@Y@Z,               eval(X@Z@(Y@Z),A))
-	, A=Xs
+eval1(Xs,A) :- rewrite(Xs,A,
+	[ ("M"@X,                   X@X)
+	, ("K"@X@_,                 X)
+	, ("I"@X,                   X)
+	, ("L"@X@Y,                 X@(Y@Y))
+	, ("B"@X@Y@Z,               X@(Y@Z))
+	, ("D"@X@Y@Z@W,             X@Y@(Z@W))
+	, ("B1"@X@Y@Z@W,            X@(Y@Z@W))
+	, ("E"@X@Y@Z@W@V,           X@Y@(Z@W@V))
+	, ("B2"@X@Y@Z@W@V,          X@(Y@Z@W@V))
+	, ("D1"@X@Y@Z@W@V,          X@Y@Z@(W@V))
+	, ("B3"@X@Y@Z@W,            X@(Y@(Z@W)))
+	, ("D2"@X@Y@Z@W@V,          X@(Y@Z)@(W@V))
+	, ("Ê"@X@Y1@Y2@Y3@Z1@Z2@Z3, X@(Y1@Y2@Y3)@(Z1@Z2@Z3))
+	, ("S"@X@Y@Z,               X@Z@(Y@Z))
 	]).
 
 eval(X,   X) :- list_si(X).
