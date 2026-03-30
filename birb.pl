@@ -27,7 +27,7 @@ parse(S,AST)   :- reverse(S,S_), phrase(appl(AST),S_).
 unparse(AST,S) :- phrase(appl(AST),S_), reverse(S,S_).
 
 rewrite(Xs,Xs,[]).
-rewrite(Xs,A,[(Pat,Rew)|Elses]) :- if_(Xs=Pat,eval(Rew,A),rewrite(Xs,A,Elses)).
+rewrite(Xs,A,[(LHS,RHS)|Elses]) :- if_(Xs=LHS,eval(RHS,A),rewrite(Xs,A,Elses)).
 
 eval1(Xs,A) :- rewrite(Xs,A,
 	[ ("M"@X,                   X@X)
@@ -84,9 +84,12 @@ bluebird --> parse, bigb, eval_strict, unparse.  % eval simplifies
 % bracket abstraction
 %--------------------
 
+no_x(X,Y)   :- list_si(Y), dif(X,Y).
+no_x(X,A@B) :- no_x(X,A), no_x(X,B).
 abstract_(X,X,  "I").
-abstract_(X,B,  "K"@B)     :- list_si(B), dif(B,X).
+abstract_(X,B,  "K"@B)     :- no_x(X,B).
 abstract_(X,B@C,"S"@B_@C_) :- abstract_(X,B,B_), abstract_(X,C,C_).
 abstract(Vars) --> { reverse(Vars,Vars_) }, parse, foldl(abstract_,Vars_), unparse.  % eval would never simplify here unless the input could already be simplified
 ?- Target = "x(yz)", abstract(["x","y","z"],Target,S0), append(S0,"xyz",S1), run_strict(S1,Target).
-   Target = "x(yz)", S0 = "S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(S(KK)I))))(S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(KI))))(S(KK)(KI)))", S1 = "S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(S(KK)I))))(S(S(KS)(S(S(KS)(S(KK)(KS)))(S(S(KS)(S(KK)(KK)))(KI))))(S(KK)(KI)))xyz" ;  ... .  % the query succeeded and didn't fail, meaning that S1 evaluates to Target
+   Target = "x(yz)", S0 = "S(S(KS)(S(KK)(S(KS)(S(KK)I))))(K(S(S(KS)(S(KK)I))(KI)))", S1 = "S(S(KS)(S(KK)(S(KS)(S(KK)I))))(K(S(S(KS)(S(KK)I))(KI)))xyz"  % the query succeeded and didn't fail, meaning that S1 evaluates to Target
+;  ... .
