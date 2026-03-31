@@ -43,6 +43,10 @@ eval1(Xs,A) :- rewrite(Xs,A,
 	, ("B3"@X@Y@Z@W,            X@(Y@(Z@W)))
 	, ("D2"@X@Y@Z@W@V,          X@(Y@Z)@(W@V))
 	, ("Ê"@X@Y1@Y2@Y3@Z1@Z2@Z3, X@(Y1@Y2@Y3)@(Z1@Z2@Z3))
+	, ("W"@X@Y,                 X@Y@Y)
+	, ("C"@X@Y@Z,               X@Z@Y)
+	, ("T"@X@Y,                 Y@X)
+	, ("R"@X@Y@Z,               Y@Z@X)
 	, ("S"@X@Y@Z,               X@Z@(Y@Z))
 	]).
 
