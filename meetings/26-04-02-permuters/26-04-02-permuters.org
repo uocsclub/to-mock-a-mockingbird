@@ -1,0 +1,147 @@
+#+TITLE: To Mock a Mockingbird Chapter 11
+#+DATE: April 2nd, 2026
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 525 :align center
+[[../../media/dore.jpg]]
+
+Today: we finish 🅱️, and meet some permuting birds
+Book club during exam period?
+
+* Dovekies
+
+D₂xyzwv = x(yz)(wv)
+
+** Answer
+
+x(yz)(wv) = Dx(yz) = DD
+x(yz)(wv) = B(x(yz))w = B(x(yz)) = B₃B
+
+* Bald Eagles
+
+Êxy₁y₂y₃z₁z₂z₃ = x(y₁y₂y₃)(z₁z₂z₃)
+
+** Answer
+
+x(y₁y₂y₃)(z₁z₂z₃) = Ex(y₁y₂y₃)z₁z₂z₃ = Ex(y₁y₂y₃) = EE
+
+These are called compositors!
+
+* Warblers
+
+Wx = xyy
+
+Prove that any forest containing a warbler W and a kestrel K must contain a mockingbird M.
+
+** Clue 1
+
+Show that from a warbler W and an identity bird I we can get a mockingbird
+
+*** Answer
+
+M = WI
+
+** Clue 2
+
+Show that from a warbler W and a kestrel K we can get an identity bird
+
+*** Answer
+
+I = WK
+
+** Answer
+
+M = W(WK)
+
+
+* Cardinals
+
+Cxyz = xzy  (swaps x's arguments around). This is called a /permuting/ bird, since it switches stuff around.
+
+Prove that any forest containing a cardinal and a kestrel must contain an identity bird.
+
+** Answer
+
+I = CKK = CKC = CK(whatever)
+
+* Thrushes
+
+Txy = yx
+
+The thrush is derivable from a cardinal C and an identity bird I. Can you see how?
+
+** Answer
+
+T = CI
+
+* Commuting Birds
+
+Two birds x and y are said to commute if xy = yx.
+
+If a forest contains a thrush, and if every bird of the forest is fond of some bird, then there must be at least one bird A that commutes with every bird. Can you see how to prove this?
+
+** Answer
+
+T is fond of some A. So TA = A. Thus TAx = Ax = xA. So A commutes with every bird
+
+Given a bluebird B, a thrush T, and a mockingbird M, can you find a bird that commutes with every bird?
+
+*** Answer
+
+T is fond of M(BTM). So A = M(BTM).
+
+* Bluebirds and Thrushes
+
+From a bluebird B and a thrush T, you can derive a cardinal (with 8 letters). How?
+
+** Clue 1
+
+From B and T, how can we derive a Robin satisfying this condition:
+
+Rxyz = yzx  (Robin rotates its arguments)
+
+*** Answer
+
+yzx = (yz)x = Tx(yz) = DT = BBT.
+
+** Clue 2
+
+And now, from just the robin alone, we can derive a cardinal. Can you see how? The solution is quite pretty.
+
+*** Answer
+
+Robin rotates its arguments! We want: Cxyz = xzy = Ryxz = Ryx = RxRy = RxR = RRRx = RRR. But wait, this is 9 letters!
+
+** Answer
+
+C = RRR = (DT)(DT)(DT) = (BBT)(BBT)(BBT) = B(T(BBT))(BBT)
+
+* Two Useful Laws
+
+Prove that for any bird x, the following facts hold:
+
+a. Cx = RxR
+b. Cx = B(Tx)R
+
+** Answer
+
+Cx = RxR: Cxyz = xzy, so we want to show that RxRyz = xyz. RxRyz = Ryxz = xzy.
+
+Cx = B(Tx)R: B(Tx)Ryz = (Tx)(Ry)z = Ryxz = xzy.
+
+* A Question
+
+You have just seen that a cardinal can be derived from a robin. Can a robin be derived from a cardinal?
+
+** Answer
+
+We want Rxyz = yzx. = Cyxz = Cyx = CC.
+
+* Next Meeting
+
+Next Friday, CRX 520, 4 PM
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
