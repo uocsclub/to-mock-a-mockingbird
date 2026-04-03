@@ -29,7 +29,7 @@ These are called compositors!
 
 * Warblers
 
-Wx = xyy
+Wxy = xyy
 
 Prove that any forest containing a warbler W and a kestrel K must contain a mockingbird M.
 
@@ -52,7 +52,6 @@ I = WK
 ** Answer
 
 M = W(WK)
-
 
 * Cardinals
 

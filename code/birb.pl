@@ -97,3 +97,6 @@ abstract(Vars) --> { reverse(Vars,Vars_) }, parse, foldl(abstract_,Vars_), unpar
 ?- Target = "x(yz)", abstract(["x","y","z"],Target,S0), append(S0,"xyz",S1), run_strict(S1,Target).
    Target = "x(yz)", S0 = "S(S(KS)(S(KK)(S(KS)(S(KK)I))))(K(S(S(KS)(S(KK)I))(KI)))", S1 = "S(S(KS)(S(KK)(S(KS)(S(KK)I))))(K(S(S(KS)(S(KK)I))(KI)))xyz"  % the query succeeded and didn't fail, meaning that S1 evaluates to Target
 ;  ... .
+?- abstract(["x","y"],"xyy",S).
+   S = "S(S(KS)(S(S(KS)(S(KK)I))(KI)))(KI)"
+;  ... .
