@@ -97,6 +97,12 @@ abstract(Vars) --> { reverse(Vars,Vars_) }, parse, foldl(abstract_,Vars_), unpar
 ?- Target = "x(yz)", abstract(["x","y","z"],Target,S0), append(S0,"xyz",S1), run_strict(S1,Target).
    Target = "x(yz)", S0 = "S(S(KS)(S(KK)(S(KS)(S(KK)I))))(K(S(S(KS)(S(KK)I))(KI)))", S1 = "S(S(KS)(S(KK)(S(KS)(S(KK)I))))(K(S(S(KS)(S(KK)I))(KI)))xyz"  % the query succeeded and didn't fail, meaning that S1 evaluates to Target
 ;  ... .
-?- abstract(["x","y"],"xyy",S).
-   S = "S(S(KS)(S(S(KS)(S(KK)I))(KI)))(KI)"
-;  ... .
+
+
+
+permute_(X,Bs@X,   Bs).
+permute_(X,B@C,    Bs) :- list_si(C), dif(B,C), permute_(X,"T"@C@B,Bs).
+permute_(X,B@(C@D),Bs) :- permute_(X,"B"@B@C@D,Bs).
+permute(Vars) --> { reverse(Vars,Vars_) }, parse, foldl(permute_,Vars_), eval_strict, unparse.
+?- Target = "xzy", permute(["x","y","z"],Target,S0), append(S0,"xyz",S1), run_strict(S1,Target).
+   Target = "xzy", S0 = "B(B(B(TB)(B(B(TT)B)))B)T", S1 = "B(B(B(TB)(B(B(TT)B)))B)Txyz" ;  ... .
