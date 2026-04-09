@@ -115,27 +115,6 @@ Robin rotates its arguments! We want: Cxyz = xzy = Ryxz = Ryx = RxRy = RxR = RRR
 
 C = RRR = (DT)(DT)(DT) = (BBT)(BBT)(BBT) = B(T(BBT))(BBT)
 
-* Two Useful Laws
-
-Prove that for any bird x, the following facts hold:
-
-a. Cx = RxR
-b. Cx = B(Tx)R
-
-** Answer
-
-Cx = RxR: Cxyz = xzy, so we want to show that RxRyz = xyz. RxRyz = Ryxz = xzy.
-
-Cx = B(Tx)R: B(Tx)Ryz = (Tx)(Ry)z = Ryxz = xzy.
-
-* A Question
-
-You have just seen that a cardinal can be derived from a robin. Can a robin be derived from a cardinal?
-
-** Answer
-
-We want Rxyz = yzx. = Cyxz = Cyx = CC.
-
 * Next Meeting
 
 Next Friday, CRX 520, 4 PM

@@ -1,0 +1,137 @@
+#+TITLE: To Mock a Mockingbird Chapter 11
+#+DATE: April 10nd, 2026
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 525 :align center
+[[../../media/dore.jpg]]
+
+Today: even more permuting birds!
+
+* Bluebirds and Thrushes
+
+From a bluebird B and a thrush T, you can derive a cardinal (with 8 letters). How?
+
+** Clue 1
+
+From B and T, how can we derive a Robin satisfying this condition:
+
+Rxyz = yzx  (Robin rotates its arguments)
+
+*** Answer
+
+yzx = (yz)x = Tx(yz) = DT = BBT.
+
+** Clue 2
+
+And now, from just the robin alone, we can derive a cardinal. Can you see how? The solution is quite pretty.
+
+*** Answer
+
+Robin rotates its arguments! We want: Cxyz = xzy = Ryxz = Ryx = RxRy = RxR = RRRx = RRR. But wait, this is 9 letters!
+
+** Answer
+
+C = RRR = (DT)(DT)(DT) = (BBT)(BBT)(BBT) = B(T(BBT))(BBT)
+
+* Two Useful Laws
+
+Prove that for any bird x, the following facts hold:
+
+a. Cx = RxR
+b. Cx = B(Tx)R
+
+** Answer
+
+Cx = RxR: Cxyz = xzy, so we want to show that RxRyz = xyz. RxRyz = Ryxz = xzy.
+
+Cx = B(Tx)R: B(Tx)Ryz = (Tx)(Ry)z = Ryxz = xzy.
+
+* A Question
+
+You have just seen that a cardinal can be derived from a robin. Can a robin be derived from a cardinal?
+
+** Answer
+
+We want Rxyz = yzx. = Cyxz = Cyx = CC.
+
+* Finches
+
+Fxyz = zyx  (reverses)
+
+A finch can be easily derived from a bluebird, a robin, and a cardinal—and hence from a bluebird and a robin or from a bluebird and a cardinal. Can you see how?
+
+** Answer
+
+zyx = Rxzy = C(Rx)zy = BCR
+
+with R = CC: BC(CC)
+with C = RRR: B(RRR)R
+
+* More finch
+
+Alternatively, a finch can be derived from a thrush T and an eagle E. Can you see how?
+
+** Answer
+
+zyx = Tx(zy) = Tx(Tyz) = ETxT = TT(ETx) = ETTET
+
+* More finch cont'd
+
+Now you have two methods of expressing a finch in terms of a bluebird B and a thrush T. You will see that one of them yields a much shorter expression than the other.
+
+Recall:
+R = BBT
+C = B(T(BBT))(BBT)
+E = B(BBB)
+
+** Answer
+
+F = BCR = B(B(T(BBT))(BBT))(BBT)
+F = ETTET = B(BBB)TT(B(BBB))T = B(TT)(B(BBB)T)
+
+* Vireos
+
+Vxyz = zxy  (like a robin but in the other direction, or a robin twice)
+
+This bird is also derivable from B and T. One way is to derive it ffrom a cardinal and a finch. Can you see how?
+
+** Answer
+
+zxy = Fyxz = CF
+
+* Vireos
+
+Vxyz = zxy
+
+How would you most easily express a vireo in terms of a finch and a robin?
+
+(An earlier exercise might be helpful)
+
+** Answer
+
+In "Two Useful Laws", we saw that Cx = RxR. So CF = RFR.
+
+* A Question
+
+You have seen that a vireo is derivable from a cardinal and a finch. Is a finch derivable from a cardinal and a vireo?
+
+** Answer
+
+Fxyz = zyx = Vyxz = CV
+
+* A Curiosity
+
+Another curiosity: show that any forest containing a robin and a kestrel must contain an identity bird.
+
+** Answer
+
+Let I = R𝛼K, for any 𝛼. Then, for all x, Ix = R𝛼Kx = Kx𝛼 = x.
+
+* Next Meeting
+
+Next Friday, CRX 520, 4 PM
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*

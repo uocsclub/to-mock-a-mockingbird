@@ -47,6 +47,8 @@ eval1(Xs,A) :- rewrite(Xs,A,
 	, ("C"@X@Y@Z,               X@Z@Y)
 	, ("T"@X@Y,                 Y@X)
 	, ("R"@X@Y@Z,               Y@Z@X)
+	, ("F"@X@Y@Z,               Z@Y@X)
+	, ("V"@X@Y@Z,               Z@X@Y)
 	, ("S"@X@Y@Z,               X@Z@(Y@Z))
 	]).
 
