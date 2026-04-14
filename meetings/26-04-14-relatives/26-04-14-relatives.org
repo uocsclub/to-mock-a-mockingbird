@@ -51,7 +51,7 @@ C*, a /cardinal once removed/ satisfies the following condition:
 
 C*axyz = axzy
 
-The bird C* is like C, except its action is 'deferred' until we skip over a; we then 'act' on the expression yzw as if we were using a cardinal.
+The bird C* is like C, except its action is 'deferred' until we skip over a; we then 'act' on the expression xyz as if we were using a cardinal.
 
 And now see if you can derive C* from B and C.
 
@@ -118,7 +118,7 @@ Does this trick work for deriving once-removed birds?
 * Vireo Revisited
 
 
-You have seen that a vireo is derivable from a cardinal and a finch. It is also derivable from the two birds C* and T. Can  you see how?
+You have seen that a vireo is derivable from a cardinal and a finch. It is also derivable from the two birds C* and T. Can you see how?
 
 Vxyz = zxy
 
@@ -126,9 +126,33 @@ Vxyz = zxy
 
 Vxyz = zxy = Txzy = C*T
 
+* Starring lemmas
+
+The notation α[βxyz] means to "splice" in the output of β to α. For example, α[Cxyz] = αxzy, since the C swapped y and z.
+
+** When is (AB)* = A*B*?
+
+If A = α*, then (AB)* = A*B*.
+
+Proof:
+
+We want to show that A*B*a[args] = (AB)*a[args], = a[AB[args]].
+
+A*B*a[args] = α**B*a[args] = B*a[αargs] a[B[αargs]] = a[α*B[args]] = a[AB[args]]
+
+** When is A* = BA?
+
+If A = α*, then BA = A*.
+
+Proof:
+
+We want to show that BAa[args] = A*a[args] = a[A[args]].
+
+BAa[args] = Bα*a[args] = (α*a)[args] = a[A[args]].
+
 * Next Meeting
 
-Next Friday, CRX 520, 4 PM
+Next next Friday, CRX 520, 4 PM
 
 #+ATTR_ORG: :align center :width 450
 [[../../media/birb-logo.png]]
