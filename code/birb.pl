@@ -11,11 +11,14 @@
 ws --> [].
 ws --> " ", ws.
 
-letter(C) --> [C], { char_type(C,alphabetic) }.
-digit(D)  --> [D], { char_type(D,decimal_digit) }.
+letter(C)   --> [C], { char_type(C,alphabetic) }.
+is_digit(D) :- char_type(D,decimal_digit).
+digits(Ds)  --> seq(Ds), { dif(Ds,[]), maplist(is_digit,Ds) }.
+stars(Ss)   --> seq(Ss), { dif(Ss,[]), maplist(=('*'),Ss) }.
 
-identifier([X,D]) --> digit(D), letter(X).
-identifier([X])   -->           letter(X).
+identifier([X|Ds])   --> digits(Ds), letter(X).
+identifier([X|Ss])   --> stars(Ss),  letter(X).
+identifier([X])      -->            letter(X).
 
 atom(X) --> identifier(X).
 atom(X) --> ")", appl(X), "(".
@@ -26,10 +29,10 @@ appl(X)   --> ws, atom(X), ws.
 parse(S,AST)   :- reverse(S,S_), phrase(appl(AST),S_).
 unparse(AST,S) :- phrase(appl(AST),S_), reverse(S,S_).
 
-rewrite(Xs,Xs,[]).
-rewrite(Xs,A,[(LHS,RHS)|Elses]) :- if_(Xs=LHS,eval(RHS,A),rewrite(Xs,A,Elses)).
+rewrite(AST, AST, []).
+rewrite(AST0,AST1,[(LHS,RHS)|Elses]) :- if_(AST0=LHS,eval(RHS,AST1),rewrite(AST0,AST1,Elses)).
 
-eval1(Xs,A) :- rewrite(Xs,A,
+eval1(AST0,AST1) :- rewrite(AST0,AST1,
 	[ ("M"@X,                   X@X)
 	, ("K"@X@_,                 X)
 	, ("I"@X,                   X)
@@ -49,6 +52,14 @@ eval1(Xs,A) :- rewrite(Xs,A,
 	, ("R"@X@Y@Z,               Y@Z@X)
 	, ("F"@X@Y@Z,               Z@Y@X)
 	, ("V"@X@Y@Z,               Z@X@Y)
+	, ("C*"@A@X@Y@Z,            A@X@Z@Y)
+	, ("R*"@A@X@Y@Z,            A@Y@Z@X)
+	, ("F*"@A@X@Y@Z,            A@Z@Y@X)
+	, ("V*"@A@X@Y@Z,            A@Z@X@Y)
+	, ("C**"@A@B@X@Y@Z,         A@B@X@Z@Y)
+	, ("R**"@A@B@X@Y@Z,         A@B@Y@Z@X)
+	, ("F**"@A@B@X@Y@Z,         A@B@Z@Y@X)
+	, ("V**"@A@B@X@Y@Z,         A@B@Z@X@Y)
 	, ("S"@X@Y@Z,               X@Z@(Y@Z))
 	]).
 

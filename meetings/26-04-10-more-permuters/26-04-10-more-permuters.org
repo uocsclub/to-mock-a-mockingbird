@@ -1,5 +1,5 @@
 #+TITLE: To Mock a Mockingbird Chapter 11
-#+DATE: April 10nd, 2026
+#+DATE: April 10th, 2026
 
 * To Mock a Mockingbird
 #+ATTR_ORG: :align center :width 525 :align center
@@ -12,6 +12,8 @@ Today: even more permuting birds!
 From a bluebird B and a thrush T, you can derive a cardinal (with 8 letters). How?
 
 ** Clue 1
+
+Bxyz = x(yz)
 
 From B and T, how can we derive a Robin satisfying this condition:
 
@@ -52,7 +54,7 @@ You have just seen that a cardinal can be derived from a robin. Can a robin be d
 
 ** Answer
 
-We want Rxyz = yzx. = Cyxz = Cyx = CC.
+We want Rxyz = Cyxz = Cyx = CC.
 
 * Finches
 
@@ -66,6 +68,8 @@ zyx = Rxzy = C(Rx)zy = BCR
 
 with R = CC: BC(CC)
 with C = RRR: B(RRR)R
+
+zyx = Rxzy = R(Cxyz) = B₂RC = B(BBB)BRC
 
 * More finch
 
@@ -88,44 +92,6 @@ E = B(BBB)
 
 F = BCR = B(B(T(BBT))(BBT))(BBT)
 F = ETTET = B(BBB)TT(B(BBB))T = B(TT)(B(BBB)T)
-
-* Vireos
-
-Vxyz = zxy  (like a robin but in the other direction, or a robin twice)
-
-This bird is also derivable from B and T. One way is to derive it ffrom a cardinal and a finch. Can you see how?
-
-** Answer
-
-zxy = Fyxz = CF
-
-* Vireos
-
-Vxyz = zxy
-
-How would you most easily express a vireo in terms of a finch and a robin?
-
-(An earlier exercise might be helpful)
-
-** Answer
-
-In "Two Useful Laws", we saw that Cx = RxR. So CF = RFR.
-
-* A Question
-
-You have seen that a vireo is derivable from a cardinal and a finch. Is a finch derivable from a cardinal and a vireo?
-
-** Answer
-
-Fxyz = zyx = Vyxz = CV
-
-* A Curiosity
-
-Another curiosity: show that any forest containing a robin and a kestrel must contain an identity bird.
-
-** Answer
-
-Let I = R𝛼K, for any 𝛼. Then, for all x, Ix = R𝛼Kx = Kx𝛼 = x.
 
 * Next Meeting
 

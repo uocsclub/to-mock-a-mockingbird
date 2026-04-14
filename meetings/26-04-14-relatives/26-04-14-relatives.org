@@ -1,0 +1,136 @@
+#+TITLE: To Mock a Mockingbird Chapter 11
+#+DATE: April 14th, 2026
+
+* To Mock a Mockingbird
+#+ATTR_ORG: :align center :width 525 :align center
+[[../../media/dore.jpg]]
+
+Today: we meet vireos, and a bunch of beatboxing extended family!
+
+* Vireos
+
+Vxyz = zxy  (like a robin but in the other direction, or a robin twice)
+
+This bird is also derivable from B and T. One way is to derive it from a cardinal and a finch. Can you see how?
+
+** Answer
+
+zxy = Fyxz = CF
+
+* Vireos
+
+Vxyz = zxy
+
+How would you most easily express a vireo in terms of a finch and a robin?
+
+(An earlier exercise might be helpful)
+
+** Answer
+
+In "Two Useful Laws", we saw that Cx = RxR. So CF = RFR.
+
+* A Question
+
+You have seen that a vireo is derivable from a cardinal and a finch. Is a finch derivable from a cardinal and a vireo?
+
+** Answer
+
+Fxyz = zyx = Vyxz = CV
+
+* A Curiosity
+
+Another curiosity: show that any forest containing a robin and a kestrel must contain an identity bird.
+
+** Answer
+
+Let I = R𝛼K, for any 𝛼. Then, for all x, Ix = R𝛼Kx = Kx𝛼 = x.
+
+* Some relatives
+
+C*, a /cardinal once removed/ satisfies the following condition:
+
+C*axyz = axzy
+
+The bird C* is like C, except its action is 'deferred' until we skip over a; we then 'act' on the expression yzw as if we were using a cardinal.
+
+And now see if you can derive C* from B and C.
+
+** Answer
+
+C*axyz = axzy = (ax)zy = C(ax) = C∘a = BC
+
+* The bird R*
+
+The bird R*—a /robin once removed/—bears much the same relation to R as C* does to C.
+
+R*axyz = ayzx
+
+Show that R* is derivable from B and C—and hence from B and T.
+
+** Answer
+
+R*axyz = ayzx = C*ayxz = C*ayx = C*C*a = C*C*
+
+Interesting note: recall that R = CC. Is it always true that if αβ = γ, then α*β* = γ* for any birds α, β, γ?
+
+* The bird F*
+
+F*axyz = azyx
+
+Now derive F* from birds derivable from B and C.
+
+** Answer
+
+F*axyz = azyx = R*axzy = C*(R*a)xyz = BC*R*
+
+(Recall that F = BCR)
+
+* The bird V*
+
+Finally, we have the /vireo once removed/:
+
+V*axyz = azxy
+
+Show how to derive V* from birds derivable from B and C.
+
+** Answer
+
+V*axyz = azxy = F*ayxz = C*F*
+
+* Twice Removed
+
+Given birds B and C, find birds C**, R**, F**, V** such that for any birds a, b, x, y, z, the following conditions hold:
+
+C**abxyz = abxzy
+R**abxyz = abyzx
+F**abxyz = abzyx
+V**abxyz = abzxy
+
+These are the birds C, R, F, V /twice/ removed. They will occasionally be useful.
+
+** Answer
+
+C**abxyz = abxzy = (C*a)bxyz = BC*
+similarly, R** = BR*, F** = BF*, V** = BV*!
+
+Does this trick work for deriving once-removed birds?
+
+* Vireo Revisited
+
+
+You have seen that a vireo is derivable from a cardinal and a finch. It is also derivable from the two birds C* and T. Can  you see how?
+
+Vxyz = zxy
+
+** Answer
+
+Vxyz = zxy = Txzy = C*T
+
+* Next Meeting
+
+Next Friday, CRX 520, 4 PM
+
+#+ATTR_ORG: :align center :width 450
+[[../../media/birb-logo.png]]
+
+*Happy (ornitho)logicking!*
