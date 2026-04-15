@@ -146,9 +146,9 @@ If A = α*, then BA = A*.
 
 Proof:
 
-We want to show that BAa[args] = A*a[args] = a[A[args]].
+We want to show that BAa[args] = A*a[args], = a[A[args]].
 
-BAa[args] = Bα*a[args] = (α*a)[args] = a[A[args]].
+BAa[args] = Bα*a(firstarg)[restargs] = α*(a(firstarg))[restargs] = a(firstarg)α[restargs] = aα*(firstarg)[restargs] = a[A[args]]
 
 * Next Meeting
 
