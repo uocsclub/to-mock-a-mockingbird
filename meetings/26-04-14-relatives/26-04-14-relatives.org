@@ -110,7 +110,7 @@ These are the birds C, R, F, V /twice/ removed. They will occasionally be useful
 
 ** Answer
 
-C**abxyz = abxzy = (C*a)bxyz = BC*
+C**abxyz = abxzy = C*(ab)xyz = BC*
 similarly, R** = BR*, F** = BF*, V** = BV*!
 
 Does this trick work for deriving once-removed birds?
