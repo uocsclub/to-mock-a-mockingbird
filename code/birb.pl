@@ -61,6 +61,8 @@ eval1(AST0,AST1) :- rewrite(AST0,AST1,
 	, ("F**"@A@B@X@Y@Z,         A@B@Z@Y@X)
 	, ("V**"@A@B@X@Y@Z,         A@B@Z@X@Y)
 	, ("S"@X@Y@Z,               X@Z@(Y@Z))
+	, ("U"@X@Y,                 Y@(X@X@Y))
+	, ("O"@X@Y,                 Y@(X@Y))
 	]).
 
 eval(X,   X) :- list_si(X).
